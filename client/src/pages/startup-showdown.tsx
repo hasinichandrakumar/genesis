@@ -127,7 +127,7 @@ export default function StartupShowdownPage() {
           <div className="text-center mb-12">
             <h2 className="text-4xl font-bold text-genesis-navy mb-4">Competition Format</h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              A structured, multi-round competition designed to showcase entrepreneurial talent
+              A structured 3-step process designed to develop and showcase entrepreneurial ideas
             </p>
           </div>
           
@@ -136,9 +136,9 @@ export default function StartupShowdownPage() {
               <div className="w-16 h-16 bg-genesis-blue rounded-full flex items-center justify-center mx-auto mb-4">
                 <span className="text-white font-bold text-xl">1</span>
               </div>
-              <h3 className="text-xl font-bold text-genesis-navy mb-3">Application Round</h3>
+              <h3 className="text-xl font-bold text-genesis-navy mb-3">Brainstorming</h3>
               <p className="text-gray-600">
-                Submit your business idea, executive summary, and team information. Our panel reviews all applications.
+                Develop innovative business ideas, identify target markets, and refine your concept through creative ideation sessions.
               </p>
             </div>
             
@@ -146,9 +146,9 @@ export default function StartupShowdownPage() {
               <div className="w-16 h-16 bg-genesis-orange rounded-full flex items-center justify-center mx-auto mb-4">
                 <span className="text-white font-bold text-xl">2</span>
               </div>
-              <h3 className="text-xl font-bold text-genesis-navy mb-3">Semi-Finals</h3>
+              <h3 className="text-xl font-bold text-genesis-navy mb-3">Creating a Presentation</h3>
               <p className="text-gray-600">
-                Selected teams present 3-minute pitches to advance to the final round. Top 10 teams move forward.
+                Build compelling presentations that showcase your business model, market opportunity, and implementation strategy.
               </p>
             </div>
             
@@ -156,9 +156,9 @@ export default function StartupShowdownPage() {
               <div className="w-16 h-16 bg-genesis-yellow rounded-full flex items-center justify-center mx-auto mb-4">
                 <span className="text-genesis-black font-bold text-xl">3</span>
               </div>
-              <h3 className="text-xl font-bold text-genesis-navy mb-3">Final Pitches</h3>
+              <h3 className="text-xl font-bold text-genesis-navy mb-3">Pitching</h3>
               <p className="text-gray-600">
-                Finalists deliver comprehensive 7-minute presentations followed by Q&A with expert judges.
+                Present your startup idea to a panel of expert judges and compete for recognition and awards.
               </p>
             </div>
           </div>
