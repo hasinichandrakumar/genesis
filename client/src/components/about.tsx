@@ -54,10 +54,10 @@ export default function About() {
       {/* Detailed About Section */}
       <section id="about" className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid lg:grid-cols-2 gap-16 items-center mb-20">
-            <div>
+          <div className="mb-20">
+            <div className="text-center mb-12">
               <h2 className="text-4xl font-bold text-genesis-navy mb-8">Who We Are</h2>
-              <div className="space-y-6 text-lg text-gray-700 leading-relaxed">
+              <div className="max-w-4xl mx-auto space-y-6 text-lg text-gray-700 leading-relaxed">
                 <p>
                   The Genesis Initiative is the <strong>first fully youth-led nonprofit</strong> in the region 
                   focused on entrepreneurship and financial literacy for kids and teens. We believe that young 
@@ -70,14 +70,16 @@ export default function About() {
                 </p>
               </div>
             </div>
-            <div className="relative">
+            
+            {/* Large workshop image */}
+            <div className="relative max-w-6xl mx-auto">
               <img 
                 src={workshopCollage} 
                 alt="Genesis Initiative workshops and activities" 
-                className="rounded-2xl shadow-xl"
+                className="w-full rounded-3xl shadow-2xl"
               />
-              <div className="absolute -bottom-6 -right-6 w-24 h-24 bg-genesis-yellow rounded-full flex items-center justify-center">
-                <Lightbulb className="h-12 w-12 text-genesis-black" />
+              <div className="absolute -bottom-8 -right-8 w-32 h-32 bg-genesis-yellow rounded-full flex items-center justify-center shadow-lg">
+                <Lightbulb className="h-16 w-16 text-genesis-black" />
               </div>
             </div>
           </div>
