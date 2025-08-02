@@ -143,7 +143,7 @@ export default function StartupShowdownPage() {
             </div>
             
             <div className="text-center">
-              <div className="w-16 h-16 bg-orange-500 rounded-full flex items-center justify-center mx-auto mb-4">
+              <div className="w-16 h-16 bg-genesis-navy rounded-full flex items-center justify-center mx-auto mb-4">
                 <span className="text-white font-bold text-xl">2</span>
               </div>
               <h3 className="text-xl font-bold text-genesis-navy mb-3">Creating a Presentation</h3>
