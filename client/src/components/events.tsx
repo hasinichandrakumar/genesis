@@ -31,6 +31,9 @@ export default function Events() {
               <p className="text-gray-700 mb-6 leading-relaxed">
                 Our signature mini Shark Tank competition where young entrepreneurs pitch their innovative 
                 ideas to real business leaders and win exciting prizes.
+                <br /><br />
+                Students present their startup concepts in front of a panel of experienced judges and compete 
+                for recognition, mentorship opportunities, and valuable startup resources.
               </p>
               <div className="flex items-center mb-6 text-gray-600">
                 <Calendar className="h-5 w-5 mr-2 text-genesis-blue" />
