@@ -82,8 +82,16 @@ export default function About() {
           </div>
           
           {/* Mission, Vision, What We Do */}
-          <div className="grid md:grid-cols-3 gap-8">
-            <div className="text-center p-8 bg-gradient-to-br from-genesis-blue/5 to-blue-100/30 rounded-2xl">
+          <div 
+            className="grid md:grid-cols-3 gap-8 p-12 rounded-3xl relative overflow-hidden"
+            style={{
+              backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('@assets/Untitled design-15_1754154253783.png')`,
+              backgroundSize: 'cover',
+              backgroundPosition: 'center',
+              backgroundRepeat: 'no-repeat'
+            }}
+          >
+            <div className="text-center p-8 bg-white/90 backdrop-blur-sm rounded-2xl">
               <div className="w-16 h-16 bg-genesis-blue rounded-full flex items-center justify-center mx-auto mb-6">
                 <Target className="h-8 w-8 text-white" />
               </div>
@@ -94,7 +102,7 @@ export default function About() {
               </p>
             </div>
             
-            <div className="text-center p-8 bg-gradient-to-br from-genesis-yellow/5 to-yellow-100/30 rounded-2xl">
+            <div className="text-center p-8 bg-white/90 backdrop-blur-sm rounded-2xl">
               <div className="w-16 h-16 bg-genesis-yellow rounded-full flex items-center justify-center mx-auto mb-6">
                 <Rocket className="h-8 w-8 text-genesis-black" />
               </div>
@@ -105,7 +113,7 @@ export default function About() {
               </p>
             </div>
             
-            <div className="text-center p-8 bg-gradient-to-br from-genesis-navy/5 to-genesis-navy/10 rounded-2xl">
+            <div className="text-center p-8 bg-white/90 backdrop-blur-sm rounded-2xl">
               <div className="w-16 h-16 bg-genesis-navy rounded-full flex items-center justify-center mx-auto mb-6">
                 <Eye className="h-8 w-8 text-white" />
               </div>
