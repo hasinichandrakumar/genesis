@@ -1,6 +1,6 @@
 import { ArrowRight, ChevronDown } from "lucide-react";
 import { GenesisLogoWhite } from "@/lib/logos";
-import heroImage from "@assets/3_1754152930494.png";
+import heroImage from "@assets/4_1754153903793.png";
 import workshopBg from "@assets/Untitled design-15_1754153834511.png";
 
 export default function Hero() {
