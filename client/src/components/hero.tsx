@@ -1,6 +1,7 @@
 import { ArrowRight, ChevronDown } from "lucide-react";
 import { GenesisLogoWhite } from "@/lib/logos";
 import heroImage from "@assets/3_1754152930494.png";
+import workshopBg from "@assets/Untitled design-15_1754153834511.png";
 
 export default function Hero() {
   const scrollToSection = (sectionId: string) => {
@@ -27,6 +28,22 @@ export default function Hero() {
       <div className="absolute inset-0 bg-gradient-to-br from-genesis-navy/95 via-genesis-navy/90 to-genesis-blue/90"></div>
       
       <div className="relative z-10 text-center text-white px-4 sm:px-6 lg:px-8 max-w-5xl mx-auto">
+        {/* Workshop background for text area */}
+        <div 
+          className="absolute inset-0 opacity-20 rounded-3xl"
+          style={{
+            backgroundImage: `url('${workshopBg}')`,
+            backgroundSize: 'cover',
+            backgroundPosition: 'center',
+            backgroundRepeat: 'no-repeat'
+          }}
+        ></div>
+        
+        {/* Dark overlay for better text readability */}
+        <div className="absolute inset-0 bg-genesis-navy/60 rounded-3xl backdrop-blur-sm"></div>
+        
+        {/* Content with relative positioning */}
+        <div className="relative z-10 py-12">
         {/* Genesis Pegasus Logo */}
         <div className="mb-8 flex justify-center">
           <div className="w-24 h-24 bg-white/10 rounded-full flex items-center justify-center backdrop-blur-sm">
@@ -56,6 +73,7 @@ export default function Hero() {
           >
             Support Our Mission
           </button>
+        </div>
         </div>
       </div>
       
