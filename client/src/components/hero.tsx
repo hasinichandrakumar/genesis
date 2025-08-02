@@ -23,8 +23,8 @@ export default function Hero() {
         }}
       ></div>
       
-      {/* Professional dark blue gradient overlay */}
-      <div className="absolute inset-0 bg-gradient-to-br from-genesis-navy/90 via-genesis-navy/80 to-genesis-blue/85"></div>
+      {/* Professional dark blue gradient overlay for better text readability */}
+      <div className="absolute inset-0 bg-gradient-to-br from-genesis-navy/95 via-genesis-navy/90 to-genesis-blue/90"></div>
       
       <div className="relative z-10 text-center text-white px-4 sm:px-6 lg:px-8 max-w-5xl mx-auto">
         {/* Genesis Pegasus Logo */}
