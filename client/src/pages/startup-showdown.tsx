@@ -85,8 +85,8 @@ export default function StartupShowdownPage() {
                   <span className="font-semibold text-genesis-navy">100+ Participants</span>
                 </div>
                 <div className="flex items-center">
-                  <DollarSign className="h-6 w-6 text-genesis-orange mr-3" />
-                  <span className="font-semibold text-genesis-navy">$500+ in Prizes</span>
+                  <Award className="h-6 w-6 text-genesis-orange mr-3" />
+                  <span className="font-semibold text-genesis-navy">Recognition & Awards</span>
                 </div>
                 <div className="flex items-center">
                   <Clock className="h-6 w-6 text-genesis-orange mr-3" />
@@ -179,38 +179,47 @@ export default function StartupShowdownPage() {
         </div>
       </section>
 
-      {/* Prizes & Awards */}
+      {/* Recognition & Awards */}
       <section className="py-16 bg-gradient-to-br from-genesis-navy to-blue-900 text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-4xl font-bold mb-4">Prizes & Recognition</h2>
+            <h2 className="text-4xl font-bold mb-4">Recognition & Awards</h2>
             <p className="text-xl text-blue-100 max-w-3xl mx-auto">
-              Awards and recognition for outstanding entrepreneurial achievement
+              Outstanding participants receive valuable recognition and opportunities for growth
             </p>
           </div>
           
-          <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+          <div className="grid md:grid-cols-3 gap-8">
             <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-8 text-center border border-white/20">
               <Trophy className="h-12 w-12 text-genesis-yellow mx-auto mb-4" />
-              <h3 className="text-2xl font-bold text-genesis-yellow mb-2">1st Place</h3>
-              <div className="text-3xl font-bold mb-4">$300</div>
+              <h3 className="text-2xl font-bold text-genesis-yellow mb-4">1st Place Winner</h3>
               <ul className="text-blue-100 space-y-2">
-                <li>• Cash prize</li>
-                <li>• Mentorship program</li>
+                <li>• Winner recognition</li>
+                <li>• Mentorship program access</li>
                 <li>• Business development resources</li>
-                <li>• Media recognition</li>
+                <li>• Media feature opportunities</li>
               </ul>
             </div>
             
             <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-8 text-center border border-white/20">
               <Award className="h-12 w-12 text-gray-300 mx-auto mb-4" />
-              <h3 className="text-2xl font-bold text-gray-300 mb-2">2nd Place</h3>
-              <div className="text-3xl font-bold mb-4">$200</div>
+              <h3 className="text-2xl font-bold text-gray-300 mb-4">Runner-Up</h3>
               <ul className="text-blue-100 space-y-2">
-                <li>• Cash prize</li>
+                <li>• Achievement recognition</li>
                 <li>• Mentorship opportunities</li>
-                <li>• Business toolkit</li>
-                <li>• Networking access</li>
+                <li>• Business toolkit access</li>
+                <li>• Networking connections</li>
+              </ul>
+            </div>
+            
+            <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-8 text-center border border-white/20">
+              <Target className="h-12 w-12 text-orange-400 mx-auto mb-4" />
+              <h3 className="text-2xl font-bold text-orange-400 mb-4">All Participants</h3>
+              <ul className="text-blue-100 space-y-2">
+                <li>• Certificate of participation</li>
+                <li>• Workshop access</li>
+                <li>• Networking opportunities</li>
+                <li>• Feedback from judges</li>
               </ul>
             </div>
           </div>
