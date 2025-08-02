@@ -1,6 +1,7 @@
 import { UserPlus, Handshake } from "lucide-react";
 import { FaLinkedin, FaEnvelope } from "react-icons/fa";
 import hasiniPhoto from "@assets/HasiniChandrakumarHeadshot_1754155576626.jpeg";
+import siddharthPhoto from "@assets/1728016660784_1754155622849.jpeg";
 
 export default function Team() {
   const scrollToContact = () => {
@@ -57,17 +58,17 @@ export default function Team() {
             </div>
           </div>
           
-          {/* Siddharth Ommuri */}
+          {/* Siddharth Kommuri */}
           <div className="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow">
             <div className="p-8">
               <div className="flex items-center mb-6">
                 <img 
-                  src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&auto=format&fit=crop&w=150&h=150" 
-                  alt="Siddharth Ommuri" 
+                  src={siddharthPhoto} 
+                  alt="Siddharth Kommuri" 
                   className="w-20 h-20 rounded-full object-cover mr-6"
                 />
                 <div>
-                  <h3 className="text-2xl font-bold text-genesis-navy">Siddharth Ommuri</h3>
+                  <h3 className="text-2xl font-bold text-genesis-navy">Siddharth Kommuri</h3>
                   <p className="text-genesis-blue font-medium">Co-Founder & Operations Director</p>
                   <div className="flex space-x-3 mt-2">
                     <a href="#" className="text-genesis-blue hover:text-genesis-navy transition-colors">
