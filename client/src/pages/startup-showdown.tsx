@@ -47,7 +47,7 @@ export default function StartupShowdownPage() {
           <div className="bg-gradient-to-br from-genesis-navy/5 to-blue-100/30 rounded-2xl p-8">
             <div className="aspect-video bg-black rounded-xl overflow-hidden shadow-2xl">
               <iframe 
-                src="https://www.youtube.com/embed/nMQ04p71WK0"
+                src="https://www.youtube.com/embed/kJAB9hMdVhY"
                 title="The Genesis Initiative - Start-Up Showdown"
                 frameBorder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
