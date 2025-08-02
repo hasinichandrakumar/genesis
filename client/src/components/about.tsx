@@ -1,14 +1,21 @@
 import { Users, Rocket, Heart, Target, Eye, Lightbulb, DollarSign } from "lucide-react";
+import workshopBg from "@assets/Untitled design-15_1754153682368.png";
 
 export default function About() {
   return (
     <>
       {/* About Snapshot */}
-      <section className="py-20 bg-gray-50">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <section 
+        className="py-20 bg-gray-50 relative bg-cover bg-center bg-no-repeat"
+        style={{ backgroundImage: `url(${workshopBg})` }}
+      >
+        {/* Dark overlay for text readability */}
+        <div className="absolute inset-0 bg-genesis-navy/85"></div>
+        
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold text-genesis-navy mb-6">About The Genesis Initiative</h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
+            <h2 className="text-4xl font-bold text-white mb-6">About The Genesis Initiative</h2>
+            <p className="text-xl text-white max-w-3xl mx-auto leading-relaxed">
               We are the first fully youth-led nonprofit in the region, dedicated to empowering the next generation 
               through entrepreneurship and financial literacy education.
             </p>
