@@ -1,0 +1,44 @@
+Landing Page (Home)
+Hero Section:
+A bright, welcoming banner featuring photos or graphics of youth actively participating in camps or workshops, paired with a strong tagline like “Guiding Emerging Next-Gen Entrepreneurial Success and Innovation in Society”
+About Snapshot:
+A brief, punchy overview of The Genesis Initiative — highlighting that it is fully youth-led, focuses on entrepreneurship and financial literacy, and runs camps and workshops designed for all backgrounds.
+Upcoming Events & Camps:
+Featured spotlight on upcoming camps like High School Head Start and Startup Showdown, with clickable links for more info and registration.
+Impact & Testimonials:
+Quotes or short stories from past participants and volunteers showcasing real-life benefits.
+Footer:
+instagram, linkedin, email (cotnact info) and links to About, Team, Contact, and Donate pages.
+
+About Us Page
+Who We Are:
+A concise explanation that The Genesis Initiative is the first fully youth-led nonprofit in the region focused on entrepreneurship and financial literacy for kids and teens.
+Our Mission:
+Empower youth to gain business and financial skills through inclusive programs that encourage creativity, confidence, and career readiness.
+What We Do:
+Description of main initiatives — free mini Shark Tank competitions, youth camps, workshops, and mentorship programs — emphasizing inclusivity and accessibility for diverse backgrounds.
+Our Vision:
+To create a community where every young person has the opportunity and resources to thrive as entrepreneurs and financially savvy adults.
+
+The Team Page
+Youth Leadership:
+brief feature of hasini chandrakumar and siddharth ommuri
+Photos and short bios of the youth board and organizers, spotlighting their passion and roles in running the nonprofit.
+Join Our Team:
+Call to action for volunteers, youth leaders, and mentors to get involved.
+
+Contact Page
+Get in Touch:
+Simple contact form for questions, partnership inquiries, or general messages. that takes them straight to the genesis email draft 
+Direct Contact Info:
+Email address and phone number thegenesisinitiative.austin@gmail.com (if applicable), plus social media handles for quick connection.
+
+Donation Page
+Support Our Mission:
+Clear explanation of how donations help keep camps free or affordable, provide materials, and expand outreach to underserved youth.
+Make a Donation:
+User-friendly form with suggested amounts and custom input, plus an option for monthly giving.
+Transparency & Impact:
+Brief statement on fund allocation, with a promise to provide updates on how donations make a difference.
+Thank You:
+A heartfelt message expressing gratitude and highlighting community impact.
