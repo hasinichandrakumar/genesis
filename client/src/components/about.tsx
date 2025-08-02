@@ -1,5 +1,5 @@
 import { Users, Rocket, Heart, Target, Eye, Lightbulb, DollarSign } from "lucide-react";
-import teamPhoto from "@assets/4_1754154756651.png";
+import workshopCollage from "@assets/Untitled design-12_1754154967868.png";
 
 export default function About() {
   return (
@@ -72,8 +72,8 @@ export default function About() {
             </div>
             <div className="relative">
               <img 
-                src={teamPhoto} 
-                alt="Genesis Initiative team members" 
+                src={workshopCollage} 
+                alt="Genesis Initiative workshops and activities" 
                 className="rounded-2xl shadow-xl"
               />
               <div className="absolute -bottom-6 -right-6 w-24 h-24 bg-genesis-yellow rounded-full flex items-center justify-center">
