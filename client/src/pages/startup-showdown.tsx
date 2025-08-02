@@ -9,7 +9,7 @@ export default function StartupShowdownPage() {
       <Navigation />
       
       {/* Hero Section */}
-      <section className="pt-20 pb-16 bg-gradient-to-br from-genesis-navy to-blue-900 text-white">
+      <section className="pt-20 pb-16 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <div className="flex justify-center mb-6">
@@ -17,8 +17,8 @@ export default function StartupShowdownPage() {
                 <Trophy className="h-10 w-10 text-genesis-black" />
               </div>
             </div>
-            <h1 className="text-5xl font-bold mb-6 tracking-tight">Start-Up Showdown</h1>
-            <p className="text-xl text-white max-w-3xl mx-auto leading-relaxed mb-8">
+            <h1 className="text-5xl font-bold mb-6 tracking-tight text-black">Start-Up Showdown</h1>
+            <p className="text-xl text-black max-w-3xl mx-auto leading-relaxed mb-8">
               The ultimate entrepreneurial competition where young innovators pitch their groundbreaking ideas, 
               compete for prizes, and gain invaluable experience in the world of business.
             </p>
@@ -26,7 +26,7 @@ export default function StartupShowdownPage() {
               <Button className="bg-genesis-yellow text-genesis-black hover:bg-yellow-500 text-lg px-8 py-3">
                 Register Now
               </Button>
-              <Button variant="outline" className="border-white text-white hover:bg-white hover:text-genesis-navy text-lg px-8 py-3">
+              <Button variant="outline" className="border-genesis-navy text-genesis-navy hover:bg-genesis-navy hover:text-white text-lg px-8 py-3">
                 Learn More
               </Button>
             </div>
