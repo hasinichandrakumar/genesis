@@ -97,7 +97,7 @@ export default function Team() {
         {/* Team Stats & Join CTA */}
         <div className="bg-gradient-to-br from-genesis-navy to-blue-900 rounded-2xl p-12 text-white text-center">
           <h3 className="text-3xl font-bold mb-6">Join Our Growing Team</h3>
-          <p className="text-xl text-blue-100 mb-8 max-w-2xl mx-auto">
+          <p className="text-xl text-white mb-8 max-w-2xl mx-auto">
             We're always looking for passionate volunteers, youth leaders, and mentors to help expand our impact. 
             Together, we can empower more young entrepreneurs.
           </p>
@@ -105,15 +105,15 @@ export default function Team() {
           <div className="grid md:grid-cols-3 gap-6 mb-8">
             <div>
               <div className="text-2xl font-bold text-genesis-yellow mb-2">15+</div>
-              <div className="text-blue-200">Active Youth Leaders</div>
+              <div className="text-white">Active Youth Leaders</div>
             </div>
             <div>
               <div className="text-2xl font-bold text-genesis-yellow mb-2">25+</div>
-              <div className="text-blue-200">Volunteer Mentors</div>
+              <div className="text-white">Volunteer Mentors</div>
             </div>
             <div>
               <div className="text-2xl font-bold text-genesis-yellow mb-2">8+</div>
-              <div className="text-blue-200">Partner Organizations</div>
+              <div className="text-white">Partner Organizations</div>
             </div>
           </div>
           
