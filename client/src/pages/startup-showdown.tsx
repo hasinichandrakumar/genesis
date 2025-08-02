@@ -180,20 +180,20 @@ export default function StartupShowdownPage() {
       </section>
 
       {/* Recognition & Awards */}
-      <section className="py-16 bg-gradient-to-br from-genesis-navy to-blue-900 text-white">
+      <section className="py-16 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-4xl font-bold mb-4">Recognition & Awards</h2>
-            <p className="text-xl text-blue-100 max-w-3xl mx-auto">
+            <h2 className="text-4xl font-bold mb-4 text-genesis-navy">Recognition & Awards</h2>
+            <p className="text-xl text-gray-700 max-w-3xl mx-auto">
               Outstanding participants receive valuable recognition and opportunities for growth
             </p>
           </div>
           
           <div className="grid md:grid-cols-3 gap-8">
-            <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-8 text-center border border-white/20">
+            <div className="bg-white rounded-2xl p-8 text-center border-2 border-genesis-yellow shadow-lg">
               <Trophy className="h-12 w-12 text-genesis-yellow mx-auto mb-4" />
-              <h3 className="text-2xl font-bold text-genesis-yellow mb-4">1st Place Winner</h3>
-              <ul className="text-blue-100 space-y-2">
+              <h3 className="text-2xl font-bold text-genesis-navy mb-4">1st Place Winner</h3>
+              <ul className="text-gray-700 space-y-3">
                 <li>• Winner recognition</li>
                 <li>• Mentorship program access</li>
                 <li>• Business development resources</li>
@@ -201,10 +201,10 @@ export default function StartupShowdownPage() {
               </ul>
             </div>
             
-            <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-8 text-center border border-white/20">
-              <Award className="h-12 w-12 text-gray-300 mx-auto mb-4" />
-              <h3 className="text-2xl font-bold text-gray-300 mb-4">Runner-Up</h3>
-              <ul className="text-blue-100 space-y-2">
+            <div className="bg-white rounded-2xl p-8 text-center border-2 border-gray-300 shadow-lg">
+              <Award className="h-12 w-12 text-genesis-blue mx-auto mb-4" />
+              <h3 className="text-2xl font-bold text-genesis-navy mb-4">Runner-Up</h3>
+              <ul className="text-gray-700 space-y-3">
                 <li>• Achievement recognition</li>
                 <li>• Mentorship opportunities</li>
                 <li>• Business toolkit access</li>
@@ -212,10 +212,10 @@ export default function StartupShowdownPage() {
               </ul>
             </div>
             
-            <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-8 text-center border border-white/20">
-              <Target className="h-12 w-12 text-orange-400 mx-auto mb-4" />
-              <h3 className="text-2xl font-bold text-orange-400 mb-4">All Participants</h3>
-              <ul className="text-blue-100 space-y-2">
+            <div className="bg-white rounded-2xl p-8 text-center border-2 border-genesis-orange shadow-lg">
+              <Target className="h-12 w-12 text-genesis-orange mx-auto mb-4" />
+              <h3 className="text-2xl font-bold text-genesis-navy mb-4">All Participants</h3>
+              <ul className="text-gray-700 space-y-3">
                 <li>• Certificate of participation</li>
                 <li>• Workshop access</li>
                 <li>• Networking opportunities</li>
