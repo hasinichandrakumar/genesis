@@ -46,14 +46,14 @@ export default function StartupShowdownPage() {
           
           <div className="bg-gradient-to-br from-genesis-navy/5 to-blue-100/30 rounded-2xl p-8">
             <div className="aspect-video bg-black rounded-xl overflow-hidden shadow-2xl">
-              <video 
-                controls 
-                className="w-full h-full object-cover"
-                poster="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 450'%3E%3Crect width='800' height='450' fill='%23003366'/%3E%3Ccircle cx='400' cy='225' r='60' fill='%23F4D03F'/%3E%3Cpolygon points='380,205 380,245 420,225' fill='%23003366'/%3E%3Ctext x='400' y='290' text-anchor='middle' fill='white' font-size='20' font-family='Arial'%3EStart-Up Showdown%3C/text%3E%3C/svg%3E"
-              >
-                <source src="/attached_assets/The GENESIS Initiative_1754156834935.mp4" type="video/mp4" />
-                Your browser does not support the video tag.
-              </video>
+              <iframe 
+                src="https://www.youtube.com/embed/nMQ04p71WK0"
+                title="The Genesis Initiative - Start-Up Showdown"
+                frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowFullScreen
+                className="w-full h-full"
+              ></iframe>
             </div>
             <div className="mt-6 text-center">
               <p className="text-gray-600 text-sm">
