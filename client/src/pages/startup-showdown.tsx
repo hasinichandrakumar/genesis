@@ -216,6 +216,46 @@ export default function StartupShowdownPage() {
 
 
 
+      {/* Past Winners */}
+      <section className="py-16 bg-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-12">
+            <h2 className="text-4xl font-bold text-genesis-navy mb-4">Past Winners</h2>
+            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+              Celebrating the innovative young entrepreneurs who have excelled in our competition
+            </p>
+          </div>
+          
+          <div className="grid md:grid-cols-2 gap-12 max-w-5xl mx-auto">
+            <div className="text-center">
+              <div className="bg-gradient-to-br from-genesis-navy/5 to-blue-100/30 rounded-2xl p-8 mb-6">
+                <div className="w-48 h-48 mx-auto bg-gray-200 rounded-lg mb-4 flex items-center justify-center">
+                  <span className="text-gray-500">Division 1 Winner Photo</span>
+                </div>
+              </div>
+              <h3 className="text-2xl font-bold text-genesis-navy mb-2">Division 1 Winner</h3>
+              <p className="text-genesis-blue font-semibold mb-2">Grades 8-9</p>
+              <p className="text-gray-600">
+                Outstanding innovation and entrepreneurial excellence in the upper division
+              </p>
+            </div>
+            
+            <div className="text-center">
+              <div className="bg-gradient-to-br from-genesis-navy/5 to-blue-100/30 rounded-2xl p-8 mb-6">
+                <div className="w-48 h-48 mx-auto bg-gray-200 rounded-lg mb-4 flex items-center justify-center">
+                  <span className="text-gray-500">Division 2 Winner Photo</span>
+                </div>
+              </div>
+              <h3 className="text-2xl font-bold text-genesis-navy mb-2">Division 2 Winner</h3>
+              <p className="text-genesis-blue font-semibold mb-2">Grades 6-7</p>
+              <p className="text-gray-600">
+                Remarkable creativity and business acumen in the younger division
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Upcoming Event */}
       <section className="py-16 bg-gray-50">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
