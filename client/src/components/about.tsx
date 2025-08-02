@@ -32,8 +32,8 @@ export default function About() {
             </div>
             
             <div className="text-center p-8 bg-white rounded-xl shadow-lg hover:shadow-xl transition-shadow">
-              <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-6">
-                <Heart className="h-8 w-8 text-green-600" />
+              <div className="w-16 h-16 bg-genesis-navy/10 rounded-full flex items-center justify-center mx-auto mb-6">
+                <Heart className="h-8 w-8 text-genesis-navy" />
               </div>
               <h3 className="text-xl font-semibold text-genesis-navy mb-4">Inclusive & Accessible</h3>
               <p className="text-gray-600">Welcoming participants from all backgrounds with free or affordable programs designed for everyone.</p>
@@ -97,8 +97,8 @@ export default function About() {
               </p>
             </div>
             
-            <div className="text-center p-8 bg-gradient-to-br from-green-50 to-green-100/30 rounded-2xl">
-              <div className="w-16 h-16 bg-green-600 rounded-full flex items-center justify-center mx-auto mb-6">
+            <div className="text-center p-8 bg-gradient-to-br from-genesis-navy/5 to-genesis-navy/10 rounded-2xl">
+              <div className="w-16 h-16 bg-genesis-navy rounded-full flex items-center justify-center mx-auto mb-6">
                 <Eye className="h-8 w-8 text-white" />
               </div>
               <h3 className="text-2xl font-bold text-genesis-navy mb-4">Our Vision</h3>
