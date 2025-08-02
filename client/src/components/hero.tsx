@@ -36,9 +36,9 @@ export default function Hero() {
           </div>
         </div>
         
-        <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold mb-6 leading-loose tracking-wide">
-          Guiding Emerging <span className="text-genesis-yellow">Next-Gen</span><br />
-          Entrepreneurial Success
+        <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold mb-8 leading-[1.3] tracking-[0.02em] space-y-2">
+          <div className="mb-4">Guiding Emerging <span className="text-genesis-yellow">Next-Gen</span></div>
+          <div>Entrepreneurial Success</div>
         </h1>
         <p className="text-xl sm:text-2xl mb-8 text-white max-w-3xl mx-auto leading-relaxed">
           The first fully youth-led nonprofit empowering kids and teens with entrepreneurship and financial literacy through inclusive camps and workshops.
