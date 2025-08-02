@@ -181,7 +181,7 @@ export default function StartupShowdownPage() {
                 <img 
                   src={division1WinnerImg} 
                   alt="Division 1 Winners - Start-Up Showdown Competition"
-                  className="w-72 h-72 mx-auto rounded-lg mb-4 object-cover shadow-lg"
+                  className="w-80 h-60 mx-auto rounded-lg mb-4 object-contain shadow-lg"
                 />
               </div>
               <h3 className="text-2xl font-bold text-genesis-navy mb-2">Division 1 Winner</h3>
@@ -196,7 +196,7 @@ export default function StartupShowdownPage() {
                 <img 
                   src={division2WinnerImg} 
                   alt="Division 2 Winners - Start-Up Showdown Competition"
-                  className="w-72 h-72 mx-auto rounded-lg mb-4 object-cover shadow-lg"
+                  className="w-80 h-60 mx-auto rounded-lg mb-4 object-contain shadow-lg"
                 />
               </div>
               <h3 className="text-2xl font-bold text-genesis-navy mb-2">Division 2 Winner</h3>
