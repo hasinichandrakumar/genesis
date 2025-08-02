@@ -62,7 +62,7 @@ export default function Impact() {
                     ))}
                   </div>
                   <p className="text-gray-700 italic">
-                    "The Genesis Initiative gave me the confidence and skills to turn my business ideas into reality. The mentorship and workshops were incredibly valuable for my entrepreneurial journey."
+                    "The Genesis Initiative gave me the confidence and skills to turn my business ideas into reality. The mentorship and workshops were incredibly valuable for my entrepreneurial journey. I learned how to develop a solid business plan and present my ideas professionally. The networking opportunities connected me with peers who share my passion for innovation and entrepreneurship."
                   </p>
                 </div>
               </CarouselItem>
@@ -86,7 +86,7 @@ export default function Impact() {
                     ))}
                   </div>
                   <p className="text-gray-700 italic">
-                    "What I appreciated most was how the program connected me with like-minded peers and experienced mentors. The financial literacy workshops were particularly helpful for understanding business fundamentals."
+                    "What I appreciated most was how the program connected me with like-minded peers and experienced mentors. The financial literacy workshops were particularly helpful for understanding business fundamentals. The hands-on experience and real-world applications made complex business concepts easy to understand and apply."
                   </p>
                 </div>
               </CarouselItem>
