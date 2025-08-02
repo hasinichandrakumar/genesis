@@ -111,22 +111,8 @@ export default function StartupShowdownPage() {
                 <div className="flex items-start">
                   <Star className="h-5 w-5 text-genesis-yellow mt-1 mr-3 flex-shrink-0" />
                   <div>
-                    <h4 className="font-semibold text-genesis-navy">Mentorship Sessions</h4>
-                    <p className="text-gray-600 text-sm">One-on-one guidance from successful entrepreneurs</p>
-                  </div>
-                </div>
-                <div className="flex items-start">
-                  <Star className="h-5 w-5 text-genesis-yellow mt-1 mr-3 flex-shrink-0" />
-                  <div>
                     <h4 className="font-semibold text-genesis-navy">Networking Opportunities</h4>
                     <p className="text-gray-600 text-sm">Connect with fellow entrepreneurs and industry leaders</p>
-                  </div>
-                </div>
-                <div className="flex items-start">
-                  <Star className="h-5 w-5 text-genesis-yellow mt-1 mr-3 flex-shrink-0" />
-                  <div>
-                    <h4 className="font-semibold text-genesis-navy">Workshop Sessions</h4>
-                    <p className="text-gray-600 text-sm">Learn key business skills from industry professionals</p>
                   </div>
                 </div>
               </div>
