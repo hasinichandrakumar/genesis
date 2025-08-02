@@ -18,7 +18,7 @@ export default function StartupShowdownPage() {
               </div>
             </div>
             <h1 className="text-5xl font-bold mb-6 tracking-tight">Start-Up Showdown</h1>
-            <p className="text-xl text-blue-100 max-w-3xl mx-auto leading-relaxed mb-8">
+            <p className="text-xl text-white max-w-3xl mx-auto leading-relaxed mb-8">
               The ultimate entrepreneurial competition where young innovators pitch their groundbreaking ideas, 
               compete for prizes, and gain invaluable experience in the world of business.
             </p>
