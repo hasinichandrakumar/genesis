@@ -33,13 +33,21 @@ export default function Navigation() {
     setIsMenuOpen(false);
   };
 
+  const handleHomeClick = (e: React.MouseEvent) => {
+    if (location === "/") {
+      e.preventDefault();
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    }
+    setIsMenuOpen(false);
+  };
+
   const isActive = (path: string) => location === path;
 
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 bg-white shadow-lg border-b border-gray-200">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
-          <Link href="/" className="flex items-center space-x-3">
+          <Link href="/" onClick={handleHomeClick} className="flex items-center space-x-3">
             <div className="w-10 h-10">
               <GenesisLogoNavy />
             </div>
@@ -49,6 +57,7 @@ export default function Navigation() {
           <div className="hidden md:flex items-center space-x-8">
             <Link 
               href="/"
+              onClick={handleHomeClick}
               className={`transition-colors font-medium ${
                 isActive("/") ? "text-genesis-navy" : "text-gray-700 hover:text-genesis-navy"
               }`}
@@ -112,7 +121,7 @@ export default function Navigation() {
             <div className="px-4 pt-2 pb-3 space-y-1">
               <Link 
                 href="/"
-                onClick={() => setIsMenuOpen(false)}
+                onClick={handleHomeClick}
                 className={`block px-3 py-2 transition-colors font-medium ${
                   isActive("/") ? "text-genesis-navy" : "text-gray-700 hover:text-genesis-navy"
                 }`}
