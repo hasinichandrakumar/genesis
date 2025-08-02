@@ -1,4 +1,4 @@
-import { GraduationCap, Trophy, Lightbulb, Handshake, PiggyBank, ArrowRight, Calendar, Users, Award, FileText } from "lucide-react";
+import { GraduationCap, Trophy, Lightbulb, Handshake, PiggyBank, ArrowRight, Calendar, Users, Award, FileText, Presentation, Network } from "lucide-react";
 
 export default function Events() {
   const scrollToContact = () => {
@@ -79,7 +79,7 @@ export default function Events() {
         </div>
         
         {/* Additional Programs */}
-        <div className="mt-12 grid md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-6 gap-6">
+        <div className="mt-12 grid md:grid-cols-2 lg:grid-cols-4 gap-6">
           <div className="text-center p-6 bg-gray-50 rounded-xl">
             <Lightbulb className="h-12 w-12 text-genesis-yellow mx-auto mb-4" />
             <h4 className="font-semibold text-genesis-navy mb-2">Innovation Workshops</h4>
@@ -114,6 +114,18 @@ export default function Events() {
             <Award className="h-12 w-12 text-yellow-600 mx-auto mb-4" />
             <h4 className="font-semibold text-genesis-navy mb-2">Awards & Prizes</h4>
             <p className="text-gray-600 text-sm">Potentially earn recognition, awards, and exciting prizes for excellence.</p>
+          </div>
+          
+          <div className="text-center p-6 bg-gray-50 rounded-xl">
+            <Presentation className="h-12 w-12 text-red-600 mx-auto mb-4" />
+            <h4 className="font-semibold text-genesis-navy mb-2">Pitch Competition</h4>
+            <p className="text-gray-600 text-sm">Present your startup idea to a panel of industry experts.</p>
+          </div>
+          
+          <div className="text-center p-6 bg-gray-50 rounded-xl">
+            <Network className="h-12 w-12 text-indigo-600 mx-auto mb-4" />
+            <h4 className="font-semibold text-genesis-navy mb-2">Networking Opportunities</h4>
+            <p className="text-gray-600 text-sm">Connect with fellow entrepreneurs and industry leaders.</p>
           </div>
         </div>
       </div>
