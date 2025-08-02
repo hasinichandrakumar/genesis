@@ -216,6 +216,16 @@ export default function StartupShowdownPage() {
 
 
 
+      {/* Upcoming Event */}
+      <section className="py-16 bg-gray-50">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <h2 className="text-4xl font-bold text-genesis-navy mb-4">Upcoming in 2026</h2>
+          <p className="text-xl text-gray-600">
+            Stay tuned for more details about our next Start-Up Showdown competition.
+          </p>
+        </div>
+      </section>
+
       <Footer />
     </div>
   );
