@@ -1,4 +1,4 @@
-import { GraduationCap, Trophy, Lightbulb, Handshake, PiggyBank, ArrowRight, Calendar } from "lucide-react";
+import { GraduationCap, Trophy, Lightbulb, Handshake, PiggyBank, ArrowRight, Calendar, Users, Award, FileText } from "lucide-react";
 
 export default function Events() {
   const scrollToContact = () => {
@@ -79,7 +79,7 @@ export default function Events() {
         </div>
         
         {/* Additional Programs */}
-        <div className="mt-12 grid md:grid-cols-3 gap-6">
+        <div className="mt-12 grid md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-6 gap-6">
           <div className="text-center p-6 bg-gray-50 rounded-xl">
             <Lightbulb className="h-12 w-12 text-genesis-yellow mx-auto mb-4" />
             <h4 className="font-semibold text-genesis-navy mb-2">Innovation Workshops</h4>
@@ -96,6 +96,24 @@ export default function Events() {
             <PiggyBank className="h-12 w-12 text-green-600 mx-auto mb-4" />
             <h4 className="font-semibold text-genesis-navy mb-2">Financial Literacy</h4>
             <p className="text-gray-600 text-sm">Essential money management skills for teenage entrepreneurs.</p>
+          </div>
+          
+          <div className="text-center p-6 bg-gray-50 rounded-xl">
+            <Users className="h-12 w-12 text-genesis-orange mx-auto mb-4" />
+            <h4 className="font-semibold text-genesis-navy mb-2">Meet Like-Minded Individuals</h4>
+            <p className="text-gray-600 text-sm">Connect with fellow young entrepreneurs and build lasting friendships.</p>
+          </div>
+          
+          <div className="text-center p-6 bg-gray-50 rounded-xl">
+            <FileText className="h-12 w-12 text-purple-600 mx-auto mb-4" />
+            <h4 className="font-semibold text-genesis-navy mb-2">Free Certificates</h4>
+            <p className="text-gray-600 text-sm">Receive official certificates of completion for your participation.</p>
+          </div>
+          
+          <div className="text-center p-6 bg-gray-50 rounded-xl">
+            <Award className="h-12 w-12 text-yellow-600 mx-auto mb-4" />
+            <h4 className="font-semibold text-genesis-navy mb-2">Awards & Prizes</h4>
+            <p className="text-gray-600 text-sm">Potentially earn recognition, awards, and exciting prizes for excellence.</p>
           </div>
         </div>
       </div>
