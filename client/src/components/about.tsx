@@ -85,7 +85,7 @@ export default function About() {
           <div 
             className="grid md:grid-cols-3 gap-8 p-12 rounded-3xl relative overflow-hidden"
             style={{
-              backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('@assets/Untitled design-15_1754154253783.png')`,
+              backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('@assets/Untitled design-15_1754154363833.png')`,
               backgroundSize: 'cover',
               backgroundPosition: 'center',
               backgroundRepeat: 'no-repeat'
