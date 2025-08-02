@@ -82,11 +82,11 @@ export default function StartupShowdownPage() {
               <div className="grid sm:grid-cols-2 gap-6">
                 <div className="flex items-center">
                   <Users className="h-6 w-6 text-genesis-orange mr-3" />
-                  <span className="font-semibold text-genesis-navy">50+ Participants</span>
+                  <span className="font-semibold text-genesis-navy">100+ Participants</span>
                 </div>
                 <div className="flex items-center">
                   <DollarSign className="h-6 w-6 text-genesis-orange mr-3" />
-                  <span className="font-semibold text-genesis-navy">$5,000+ in Prizes</span>
+                  <span className="font-semibold text-genesis-navy">$500+ in Prizes</span>
                 </div>
                 <div className="flex items-center">
                   <Clock className="h-6 w-6 text-genesis-orange mr-3" />
@@ -185,15 +185,15 @@ export default function StartupShowdownPage() {
           <div className="text-center mb-12">
             <h2 className="text-4xl font-bold mb-4">Prizes & Recognition</h2>
             <p className="text-xl text-blue-100 max-w-3xl mx-auto">
-              Substantial rewards for outstanding entrepreneurial achievement
+              Awards and recognition for outstanding entrepreneurial achievement
             </p>
           </div>
           
-          <div className="grid md:grid-cols-3 gap-8">
+          <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
             <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-8 text-center border border-white/20">
               <Trophy className="h-12 w-12 text-genesis-yellow mx-auto mb-4" />
               <h3 className="text-2xl font-bold text-genesis-yellow mb-2">1st Place</h3>
-              <div className="text-3xl font-bold mb-4">$2,500</div>
+              <div className="text-3xl font-bold mb-4">$300</div>
               <ul className="text-blue-100 space-y-2">
                 <li>• Cash prize</li>
                 <li>• Mentorship program</li>
@@ -205,51 +205,13 @@ export default function StartupShowdownPage() {
             <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-8 text-center border border-white/20">
               <Award className="h-12 w-12 text-gray-300 mx-auto mb-4" />
               <h3 className="text-2xl font-bold text-gray-300 mb-2">2nd Place</h3>
-              <div className="text-3xl font-bold mb-4">$1,500</div>
+              <div className="text-3xl font-bold mb-4">$200</div>
               <ul className="text-blue-100 space-y-2">
                 <li>• Cash prize</li>
                 <li>• Mentorship opportunities</li>
                 <li>• Business toolkit</li>
                 <li>• Networking access</li>
               </ul>
-            </div>
-            
-            <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-8 text-center border border-white/20">
-              <Target className="h-12 w-12 text-orange-400 mx-auto mb-4" />
-              <h3 className="text-2xl font-bold text-orange-400 mb-2">3rd Place</h3>
-              <div className="text-3xl font-bold mb-4">$1,000</div>
-              <ul className="text-blue-100 space-y-2">
-                <li>• Cash prize</li>
-                <li>• Business resources</li>
-                <li>• Workshop access</li>
-                <li>• Certificate of achievement</li>
-              </ul>
-            </div>
-          </div>
-          
-          <div className="mt-12 text-center">
-            <h3 className="text-2xl font-bold mb-4">Special Awards</h3>
-            <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
-              <div className="bg-white/5 rounded-lg p-4">
-                <Lightbulb className="h-8 w-8 text-genesis-yellow mx-auto mb-2" />
-                <h4 className="font-bold">Most Innovative</h4>
-                <p className="text-sm text-blue-200">$500 + Recognition</p>
-              </div>
-              <div className="bg-white/5 rounded-lg p-4">
-                <Users className="h-8 w-8 text-genesis-yellow mx-auto mb-2" />
-                <h4 className="font-bold">Social Impact</h4>
-                <p className="text-sm text-blue-200">$500 + Resources</p>
-              </div>
-              <div className="bg-white/5 rounded-lg p-4">
-                <Star className="h-8 w-8 text-genesis-yellow mx-auto mb-2" />
-                <h4 className="font-bold">Audience Choice</h4>
-                <p className="text-sm text-blue-200">$300 + Trophy</p>
-              </div>
-              <div className="bg-white/5 rounded-lg p-4">
-                <Target className="h-8 w-8 text-genesis-yellow mx-auto mb-2" />
-                <h4 className="font-bold">Best Pitch</h4>
-                <p className="text-sm text-blue-200">$300 + Coaching</p>
-              </div>
             </div>
           </div>
         </div>
