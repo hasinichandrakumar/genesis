@@ -39,7 +39,7 @@ export default function Team() {
                     <a href="https://www.linkedin.com/in/hasini-chandrakumar-33483b308/" target="_blank" rel="noopener noreferrer" className="text-genesis-blue hover:text-genesis-navy transition-colors">
                       <FaLinkedin className="text-lg" />
                     </a>
-                    <a href="mailto:contact@thegenesisinitiative.org" className="text-genesis-blue hover:text-genesis-navy transition-colors">
+                    <a href="mailto:hasinic.222@gmail.com" className="text-genesis-blue hover:text-genesis-navy transition-colors">
                       <FaEnvelope className="text-lg" />
                     </a>
                   </div>
