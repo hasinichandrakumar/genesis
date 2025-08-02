@@ -35,7 +35,7 @@ export default function Footer() {
               <a href="https://www.facebook.com/people/The-Genesis-Initiative-Austin/61556645001075/" target="_blank" rel="noopener noreferrer" className="w-10 h-10 bg-blue-600 rounded-full flex items-center justify-center hover:bg-blue-700 transition-colors">
                 <FaFacebook />
               </a>
-              <a href="#" className="w-10 h-10 bg-blue-800 rounded-full flex items-center justify-center hover:bg-blue-900 transition-colors">
+              <a href="https://www.linkedin.com/company/the-genesis-initiative-austin/posts/?feedView=all" target="_blank" rel="noopener noreferrer" className="w-10 h-10 bg-blue-800 rounded-full flex items-center justify-center hover:bg-blue-900 transition-colors">
                 <FaLinkedin />
               </a>
               <a href="mailto:thegenesisinitiative.austin@gmail.com" className="w-10 h-10 bg-gray-600 rounded-full flex items-center justify-center hover:bg-gray-700 transition-colors">

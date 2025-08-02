@@ -169,7 +169,7 @@ ${formData.firstName} ${formData.lastName}
                 <a href="https://www.facebook.com/people/The-Genesis-Initiative-Austin/61556645001075/" target="_blank" rel="noopener noreferrer" className="w-12 h-12 bg-blue-600 rounded-lg flex items-center justify-center text-white hover:bg-blue-700 transition-colors">
                   <FaFacebook className="text-xl" />
                 </a>
-                <a href="#" className="w-12 h-12 bg-blue-800 rounded-lg flex items-center justify-center text-white hover:bg-blue-900 transition-colors">
+                <a href="https://www.linkedin.com/company/the-genesis-initiative-austin/posts/?feedView=all" target="_blank" rel="noopener noreferrer" className="w-12 h-12 bg-blue-800 rounded-lg flex items-center justify-center text-white hover:bg-blue-900 transition-colors">
                   <FaLinkedin className="text-xl" />
                 </a>
               </div>
