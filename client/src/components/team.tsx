@@ -36,10 +36,10 @@ export default function Team() {
                   <h3 className="text-2xl font-bold text-genesis-navy">Hasini Chandrakumar</h3>
                   <p className="text-genesis-blue font-medium">Co-Founder & Executive Director</p>
                   <div className="flex space-x-3 mt-2">
-                    <a href="#" className="text-genesis-blue hover:text-genesis-navy transition-colors">
+                    <a href="https://www.linkedin.com/in/hasini-chandrakumar-33483b308/" target="_blank" rel="noopener noreferrer" className="text-genesis-blue hover:text-genesis-navy transition-colors">
                       <FaLinkedin className="text-lg" />
                     </a>
-                    <a href="#" className="text-genesis-blue hover:text-genesis-navy transition-colors">
+                    <a href="mailto:contact@thegenesisinitiative.org" className="text-genesis-blue hover:text-genesis-navy transition-colors">
                       <FaEnvelope className="text-lg" />
                     </a>
                   </div>
