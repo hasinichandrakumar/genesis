@@ -36,7 +36,7 @@ export default function Hero() {
           </div>
         </div>
         
-        <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold mb-6 leading-relaxed">
+        <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold mb-6 leading-loose">
           Guiding Emerging <span className="text-genesis-yellow">Next-Gen</span><br />
           Entrepreneurial Success
         </h1>
