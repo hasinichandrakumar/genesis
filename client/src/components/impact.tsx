@@ -6,6 +6,8 @@ import {
   CarouselNext,
   CarouselPrevious,
 } from "@/components/ui/carousel";
+import ruhaniImg from "@assets/17_1754163155725.png";
+import pranavImg from "@assets/16_1754163155725.png";
 
 export default function Impact() {
   return (
@@ -47,7 +49,7 @@ export default function Impact() {
                 <div className="bg-white p-8 rounded-2xl shadow-lg mx-2">
                   <div className="flex items-center mb-6">
                     <img 
-                      src="/attached_assets/17_1754163155725.png" 
+                      src={ruhaniImg} 
                       alt="Ruhani Shah, Student" 
                       className="w-16 h-16 rounded-full object-cover mr-4"
                     />
@@ -71,7 +73,7 @@ export default function Impact() {
                 <div className="bg-white p-8 rounded-2xl shadow-lg mx-2">
                   <div className="flex items-center mb-6">
                     <img 
-                      src="/attached_assets/16_1754163155725.png" 
+                      src={pranavImg} 
                       alt="Pranav Jaishankar, Student" 
                       className="w-16 h-16 rounded-full object-cover mr-4"
                     />

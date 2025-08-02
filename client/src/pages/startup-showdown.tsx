@@ -2,6 +2,8 @@ import { Trophy, Clock, Users, Award, Calendar, MapPin, DollarSign, Star, Target
 import Navigation from "@/components/navigation";
 import Footer from "@/components/footer";
 import { Button } from "@/components/ui/button";
+import division1WinnerImg from "@assets/7_1754162715001.png";
+import division2WinnerImg from "@assets/8_1754162715001.png";
 
 export default function StartupShowdownPage() {
   return (
@@ -177,7 +179,7 @@ export default function StartupShowdownPage() {
             <div className="text-center">
               <div className="bg-gradient-to-br from-genesis-navy/5 to-blue-100/30 rounded-2xl p-8 mb-6">
                 <img 
-                  src="/attached_assets/7_1754162715001.png" 
+                  src={division1WinnerImg} 
                   alt="Division 1 Winners - Start-Up Showdown Competition"
                   className="w-48 h-48 mx-auto rounded-lg mb-4 object-cover shadow-lg"
                 />
@@ -192,7 +194,7 @@ export default function StartupShowdownPage() {
             <div className="text-center">
               <div className="bg-gradient-to-br from-genesis-navy/5 to-blue-100/30 rounded-2xl p-8 mb-6">
                 <img 
-                  src="/attached_assets/8_1754162715001.png" 
+                  src={division2WinnerImg} 
                   alt="Division 2 Winners - Start-Up Showdown Competition"
                   className="w-48 h-48 mx-auto rounded-lg mb-4 object-cover shadow-lg"
                 />
