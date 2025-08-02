@@ -25,6 +25,14 @@ export default function Navigation() {
     setIsMenuOpen(false);
   };
 
+  const handleStartupShowdownClick = (e: React.MouseEvent) => {
+    if (location === "/startup-showdown") {
+      e.preventDefault();
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    }
+    setIsMenuOpen(false);
+  };
+
   const isActive = (path: string) => location === path;
 
   return (
@@ -65,6 +73,7 @@ export default function Navigation() {
             </Link>
             <Link 
               href="/startup-showdown"
+              onClick={handleStartupShowdownClick}
               className={`transition-colors font-medium ${
                 isActive("/startup-showdown") ? "text-genesis-navy" : "text-gray-700 hover:text-genesis-navy"
               }`}
@@ -130,7 +139,7 @@ export default function Navigation() {
               </Link>
               <Link 
                 href="/startup-showdown"
-                onClick={() => setIsMenuOpen(false)}
+                onClick={handleStartupShowdownClick}
                 className={`block px-3 py-2 transition-colors font-medium ${
                   isActive("/startup-showdown") ? "text-genesis-navy" : "text-gray-700 hover:text-genesis-navy"
                 }`}
