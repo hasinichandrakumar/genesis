@@ -20,25 +20,25 @@ export default function Events() {
         
         <div className="grid lg:grid-cols-2 gap-8">
           {/* High School Head Start */}
-          <div className="bg-gradient-to-br from-genesis-blue to-blue-600 rounded-2xl p-8 text-white relative overflow-hidden">
-            <div className="absolute top-0 right-0 w-32 h-32 bg-white/10 rounded-full -translate-y-16 translate-x-16"></div>
+          <div className="bg-white border-2 border-genesis-blue rounded-2xl p-8 relative overflow-hidden shadow-lg">
+            <div className="absolute top-0 right-0 w-32 h-32 bg-genesis-blue/5 rounded-full -translate-y-16 translate-x-16"></div>
             <div className="relative z-10">
               <div className="flex items-center mb-4">
-                <GraduationCap className="h-8 w-8 mr-3" />
-                <span className="text-blue-200 font-medium">SIGNATURE PROGRAM</span>
+                <GraduationCap className="h-8 w-8 mr-3 text-genesis-blue" />
+                <span className="text-genesis-blue font-medium">SIGNATURE PROGRAM</span>
               </div>
-              <h3 className="text-2xl font-bold mb-4">High School Head Start</h3>
-              <p className="text-blue-100 mb-6 leading-relaxed">
-                A comprehensive program designed to give high school students a competitive edge in entrepreneurship 
-                and business fundamentals before college.
+              <h3 className="text-2xl font-bold mb-4 text-genesis-navy">High School Head Start Camp</h3>
+              <p className="text-gray-700 mb-6 leading-relaxed">
+                An intensive summer camp program that introduces high school students to entrepreneurship, financial literacy, 
+                and business fundamentals through hands-on workshops, mini pitch competitions, and mentorship from young business leaders.
               </p>
-              <div className="flex items-center mb-6">
-                <Calendar className="h-5 w-5 mr-2" />
-                <span>Next Session: March 2024</span>
+              <div className="flex items-center mb-6 text-gray-600">
+                <Calendar className="h-5 w-5 mr-2 text-genesis-blue" />
+                <span>Next Session: Summer 2024</span>
               </div>
               <button 
                 onClick={scrollToContact}
-                className="inline-flex items-center bg-white text-genesis-blue px-6 py-3 rounded-full font-semibold hover:bg-blue-50 transition-colors"
+                className="inline-flex items-center bg-genesis-blue text-white px-6 py-3 rounded-full font-semibold hover:bg-blue-600 transition-colors"
               >
                 Learn More <ArrowRight className="ml-2 h-4 w-4" />
               </button>
