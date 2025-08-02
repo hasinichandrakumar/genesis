@@ -20,20 +20,20 @@ export default function Events() {
         
         <div className="grid lg:grid-cols-2 gap-8">
           {/* Startup Showdown - Now First with Blue Highlight */}
-          <div className="bg-gradient-to-br from-genesis-blue to-blue-600 rounded-2xl p-8 text-white relative overflow-hidden">
-            <div className="absolute top-0 right-0 w-32 h-32 bg-white/10 rounded-full -translate-y-16 translate-x-16"></div>
+          <div className="bg-gradient-to-br from-genesis-blue/10 to-blue-100 border-2 border-genesis-blue rounded-2xl p-8 relative overflow-hidden shadow-lg">
+            <div className="absolute top-0 right-0 w-32 h-32 bg-genesis-blue/5 rounded-full -translate-y-16 translate-x-16"></div>
             <div className="relative z-10">
               <div className="flex items-center mb-4">
-                <Trophy className="h-8 w-8 mr-3" />
-                <span className="text-blue-200 font-medium">COMPETITION</span>
+                <Trophy className="h-8 w-8 mr-3 text-genesis-blue" />
+                <span className="text-genesis-blue font-medium">COMPETITION</span>
               </div>
-              <h3 className="text-2xl font-bold mb-4">Startup Showdown</h3>
-              <p className="text-blue-100 mb-6 leading-relaxed">
+              <h3 className="text-2xl font-bold mb-4 text-genesis-navy">Startup Showdown</h3>
+              <p className="text-gray-700 mb-6 leading-relaxed">
                 Our signature mini Shark Tank competition where young entrepreneurs pitch their innovative 
                 ideas to real business leaders and win exciting prizes.
               </p>
-              <div className="flex items-center mb-6">
-                <Calendar className="h-5 w-5 mr-2" />
+              <div className="flex items-center mb-6 text-gray-600">
+                <Calendar className="h-5 w-5 mr-2 text-genesis-blue" />
                 <span>Next Event: April 2026</span>
               </div>
               <button 
