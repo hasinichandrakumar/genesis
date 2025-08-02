@@ -143,7 +143,9 @@ ${formData.firstName} ${formData.lastName}
                   </div>
                   <div>
                     <h4 className="font-semibold text-genesis-navy">Email</h4>
-                    <p className="text-gray-600">thegenesisinitiative.austin@gmail.com</p>
+                    <a href="mailto:thegenesisinitiative.austin@gmail.com" className="text-genesis-blue hover:text-genesis-navy transition-colors">
+                      thegenesisinitiative.austin@gmail.com
+                    </a>
                   </div>
                 </div>
                 
