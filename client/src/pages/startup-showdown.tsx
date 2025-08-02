@@ -34,6 +34,36 @@ export default function StartupShowdownPage() {
         </div>
       </section>
 
+      {/* Video Section */}
+      <section className="py-16 bg-white">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-12">
+            <h2 className="text-4xl font-bold text-genesis-navy mb-4">Experience Start-Up Showdown</h2>
+            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+              Watch highlights from previous events and see the innovation, energy, and entrepreneurial spirit that defines our competition.
+            </p>
+          </div>
+          
+          <div className="bg-gradient-to-br from-genesis-navy/5 to-blue-100/30 rounded-2xl p-8">
+            <div className="aspect-video bg-black rounded-xl overflow-hidden shadow-2xl">
+              <video 
+                controls 
+                className="w-full h-full object-cover"
+                poster="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 450'%3E%3Crect width='800' height='450' fill='%23003366'/%3E%3Ccircle cx='400' cy='225' r='60' fill='%23F4D03F'/%3E%3Cpolygon points='380,205 380,245 420,225' fill='%23003366'/%3E%3Ctext x='400' y='290' text-anchor='middle' fill='white' font-size='20' font-family='Arial'%3EStart-Up Showdown%3C/text%3E%3C/svg%3E"
+              >
+                <source src="/attached_assets/The GENESIS Initiative_1754156834935.mp4" type="video/mp4" />
+                Your browser does not support the video tag.
+              </video>
+            </div>
+            <div className="mt-6 text-center">
+              <p className="text-gray-600 text-sm">
+                See how young entrepreneurs showcase their innovative ideas and compete for life-changing opportunities
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Event Overview */}
       <section className="py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
