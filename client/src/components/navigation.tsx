@@ -66,6 +66,14 @@ export default function Navigation() {
               Team
             </Link>
             <Link 
+              href="/startup-showdown"
+              className={`transition-colors font-medium ${
+                isActive("/startup-showdown") ? "text-genesis-navy" : "text-gray-700 hover:text-genesis-navy"
+              }`}
+            >
+              Start-Up Showdown
+            </Link>
+            <Link 
               href="/contact"
               className={`transition-colors font-medium ${
                 isActive("/contact") ? "text-genesis-navy" : "text-gray-700 hover:text-genesis-navy"
@@ -121,6 +129,15 @@ export default function Navigation() {
                 }`}
               >
                 Team
+              </Link>
+              <Link 
+                href="/startup-showdown"
+                onClick={() => setIsMenuOpen(false)}
+                className={`block px-3 py-2 transition-colors font-medium ${
+                  isActive("/startup-showdown") ? "text-genesis-navy" : "text-gray-700 hover:text-genesis-navy"
+                }`}
+              >
+                Start-Up Showdown
               </Link>
               <Link 
                 href="/contact"
