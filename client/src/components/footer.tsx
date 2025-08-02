@@ -60,13 +60,13 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href="/contact" className="text-gray-400 hover:text-white transition-colors">
-                  Contact
+                <Link href="/startup-showdown" className="text-gray-400 hover:text-white transition-colors">
+                  Start-Up Showdown
                 </Link>
               </li>
               <li>
-                <Link href="/#donate" className="text-gray-400 hover:text-white transition-colors">
-                  Donate
+                <Link href="/contact" className="text-gray-400 hover:text-white transition-colors">
+                  Contact
                 </Link>
               </li>
             </ul>
@@ -76,10 +76,10 @@ export default function Footer() {
           <div>
             <h4 className="text-lg font-semibold mb-6">Programs</h4>
             <ul className="space-y-3">
-              <li><Link href="/#events" className="text-gray-400 hover:text-white transition-colors">High School Head Start</Link></li>
-              <li><Link href="/startup-showdown" className="text-gray-400 hover:text-white transition-colors">Startup Showdown</Link></li>
-              <li><Link href="/#events" className="text-gray-400 hover:text-white transition-colors">Financial Literacy</Link></li>
-              <li><Link href="/contact" className="text-gray-400 hover:text-white transition-colors">Mentorship</Link></li>
+              <li><Link href="/" className="text-gray-400 hover:text-white transition-colors">Innovation Workshops</Link></li>
+              <li><Link href="/startup-showdown" className="text-gray-400 hover:text-white transition-colors">Start-Up Showdown</Link></li>
+              <li><Link href="/" className="text-gray-400 hover:text-white transition-colors">Financial Literacy</Link></li>
+              <li><Link href="/" className="text-gray-400 hover:text-white transition-colors">Mentorship Program</Link></li>
             </ul>
           </div>
         </div>
