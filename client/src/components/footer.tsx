@@ -1,4 +1,4 @@
-import { GenesisLogoNavy } from "@/lib/logos";
+import { GenesisLogoWhite } from "@/lib/logos";
 import { FaInstagram, FaLinkedin, FaEnvelope } from "react-icons/fa";
 
 export default function Footer() {
@@ -16,10 +16,8 @@ export default function Footer() {
           {/* Brand */}
           <div className="md:col-span-2">
             <div className="flex items-center space-x-3 mb-6">
-              <div className="w-12 h-12 bg-genesis-blue rounded-full flex items-center justify-center">
-                <div className="w-8 h-8 text-white">
-                  <GenesisLogoNavy />
-                </div>
+              <div className="w-12 h-12">
+                <GenesisLogoWhite />
               </div>
               <div>
                 <div className="text-xl font-bold">The Genesis Initiative</div>

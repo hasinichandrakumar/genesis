@@ -1,5 +1,6 @@
 import { ArrowRight, ChevronDown } from "lucide-react";
 import { GenesisLogoWhite } from "@/lib/logos";
+import heroImage from "@assets/3_1754151540809.png";
 
 export default function Hero() {
   const scrollToSection = (sectionId: string) => {
@@ -15,8 +16,10 @@ export default function Hero() {
       <div 
         className="absolute inset-0 bg-cover bg-center"
         style={{ 
-          backgroundImage: `url('https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&h=1080')`,
-          backgroundPosition: 'center 30%'
+          backgroundImage: `url('${heroImage}')`,
+          backgroundPosition: 'center 20%',
+          backgroundSize: 'cover',
+          transform: 'scale(1.1)'
         }}
       ></div>
       
