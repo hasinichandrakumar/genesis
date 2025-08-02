@@ -1,6 +1,6 @@
 import { ArrowRight, ChevronDown } from "lucide-react";
 import { GenesisLogoWhite } from "@/lib/logos";
-import heroImage from "@assets/Untitled design-15_1754153597660.png";
+import heroImage from "@assets/3_1754152930494.png";
 
 export default function Hero() {
   const scrollToSection = (sectionId: string) => {
