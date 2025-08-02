@@ -60,6 +60,9 @@ export default function Events() {
               <p className="text-gray-700 mb-6 leading-relaxed">
                 An intensive summer camp program that introduces high school students to entrepreneurship, financial literacy, 
                 and business fundamentals through hands-on workshops, mini pitch competitions, and mentorship from young business leaders.
+                <br /><br />
+                Participants develop real business plans, learn essential skills like budgeting and marketing, and gain confidence 
+                to launch their own ventures while building lasting connections with peers and mentors.
               </p>
               <div className="flex items-center mb-6 text-gray-600">
                 <Calendar className="h-5 w-5 mr-2 text-genesis-blue" />
