@@ -81,6 +81,14 @@ export default function Navigation() {
               Start-Up Showdown
             </Link>
             <Link 
+              href="/store"
+              className={`transition-colors font-medium ${
+                isActive("/store") ? "text-genesis-navy" : "text-gray-700 hover:text-genesis-navy"
+              }`}
+            >
+              Store
+            </Link>
+            <Link 
               href="/contact"
               className={`transition-colors font-medium ${
                 isActive("/contact") ? "text-genesis-navy" : "text-gray-700 hover:text-genesis-navy"
@@ -145,6 +153,15 @@ export default function Navigation() {
                 }`}
               >
                 Start-Up Showdown
+              </Link>
+              <Link 
+                href="/store"
+                onClick={() => setIsMenuOpen(false)}
+                className={`block px-3 py-2 transition-colors font-medium ${
+                  isActive("/store") ? "text-genesis-navy" : "text-gray-700 hover:text-genesis-navy"
+                }`}
+              >
+                Store
               </Link>
               <Link 
                 href="/contact"
