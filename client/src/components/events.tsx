@@ -37,10 +37,10 @@ export default function Events() {
                 <span>Next Session: Summer 2024</span>
               </div>
               <button 
-                onClick={scrollToContact}
-                className="inline-flex items-center bg-genesis-blue text-white px-6 py-3 rounded-full font-semibold hover:bg-blue-600 transition-colors"
+                className="inline-flex items-center bg-gray-400 text-white px-6 py-3 rounded-full font-semibold cursor-not-allowed"
+                disabled
               >
-                Learn More <ArrowRight className="ml-2 h-4 w-4" />
+                Upcoming in 2025
               </button>
             </div>
           </div>
@@ -63,10 +63,10 @@ export default function Events() {
                 <span>Next Event: April 2024</span>
               </div>
               <button 
-                onClick={scrollToContact}
-                className="inline-flex items-center bg-genesis-black text-white px-6 py-3 rounded-full font-semibold hover:bg-gray-800 transition-colors"
+                className="inline-flex items-center bg-gray-400 text-white px-6 py-3 rounded-full font-semibold cursor-not-allowed"
+                disabled
               >
-                Register Now <ArrowRight className="ml-2 h-4 w-4" />
+                Upcoming in 2025
               </button>
             </div>
           </div>
