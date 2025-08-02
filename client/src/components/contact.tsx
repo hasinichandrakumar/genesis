@@ -178,14 +178,21 @@ ${formData.firstName} ${formData.lastName}
             {/* Quick Links */}
             <div className="bg-gradient-to-br from-genesis-blue/5 to-blue-100/30 rounded-2xl p-6">
               <h4 className="text-xl font-bold text-genesis-navy mb-4">Quick Actions</h4>
-              <div className="space-y-3">
+              <div className="space-y-4">
                 <button 
                   onClick={() => scrollToSection("donate")}
                   className="block w-full bg-genesis-yellow text-genesis-black px-6 py-3 rounded-lg font-semibold hover:bg-yellow-500 transition-colors text-center"
                 >
                   <Heart className="inline mr-2 h-5 w-5" /> Support Our Mission
                 </button>
-
+                
+                <div className="text-sm text-gray-600 text-center leading-relaxed">
+                  <p className="font-medium text-genesis-navy mb-2">Your donation directly empowers youth:</p>
+                  <p>• Provides free workshops and camp materials</p>
+                  <p>• Supports mentorship and career guidance</p>
+                  <p>• Creates opportunities in underserved communities</p>
+                  <p className="mt-2 text-xs text-gray-500">Every dollar helps a young entrepreneur thrive</p>
+                </div>
               </div>
             </div>
           </div>
