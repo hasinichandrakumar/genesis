@@ -106,7 +106,10 @@ export default function Donate() {
               />
             </div>
             
-            <Button className="w-full bg-genesis-yellow text-genesis-black hover:bg-yellow-500 text-lg py-4">
+            <Button 
+              onClick={() => window.open('https://linktr.ee/thegenesisinitiative.austin', '_blank')}
+              className="w-full bg-genesis-yellow text-genesis-black hover:bg-yellow-500 text-lg py-4"
+            >
               <Heart className="mr-2 h-5 w-5" />
               Donate Now
             </Button>

@@ -51,7 +51,7 @@ export default function Hero() {
             Learn More <ArrowRight className="ml-2 h-5 w-5" />
           </button>
           <button 
-            onClick={() => scrollToSection("donate")}
+            onClick={() => window.open('https://linktr.ee/thegenesisinitiative.austin', '_blank')}
             className="border-2 border-white text-white px-8 py-4 rounded-full text-lg font-semibold hover:bg-white hover:text-genesis-navy transition-colors"
           >
             Support Our Mission
