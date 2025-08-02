@@ -163,13 +163,13 @@ ${formData.firstName} ${formData.lastName}
             <div>
               <h4 className="text-xl font-bold text-genesis-navy mb-4">Follow Us</h4>
               <div className="flex space-x-4">
-                <a href="https://www.instagram.com/thegenesisinitiative_austin/" target="_blank" rel="noopener noreferrer" className="w-12 h-12 bg-pink-500 rounded-lg flex items-center justify-center text-white hover:bg-pink-600 transition-colors">
+                <a href="https://www.instagram.com/thegenesisinitiative_austin/" target="_blank" rel="noopener noreferrer" className="w-12 h-12 bg-genesis-navy rounded-lg flex items-center justify-center text-white hover:bg-blue-800 transition-colors">
                   <FaInstagram className="text-xl" />
                 </a>
-                <a href="https://www.facebook.com/people/The-Genesis-Initiative-Austin/61556645001075/" target="_blank" rel="noopener noreferrer" className="w-12 h-12 bg-blue-600 rounded-lg flex items-center justify-center text-white hover:bg-blue-700 transition-colors">
+                <a href="https://www.facebook.com/people/The-Genesis-Initiative-Austin/61556645001075/" target="_blank" rel="noopener noreferrer" className="w-12 h-12 bg-genesis-blue rounded-lg flex items-center justify-center text-white hover:bg-blue-700 transition-colors">
                   <FaFacebook className="text-xl" />
                 </a>
-                <a href="https://www.linkedin.com/company/the-genesis-initiative-austin/posts/?feedView=all" target="_blank" rel="noopener noreferrer" className="w-12 h-12 bg-blue-800 rounded-lg flex items-center justify-center text-white hover:bg-blue-900 transition-colors">
+                <a href="https://www.linkedin.com/company/the-genesis-initiative-austin/posts/?feedView=all" target="_blank" rel="noopener noreferrer" className="w-12 h-12 bg-genesis-orange rounded-lg flex items-center justify-center text-white hover:bg-orange-600 transition-colors">
                   <FaLinkedin className="text-xl" />
                 </a>
               </div>
