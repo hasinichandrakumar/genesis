@@ -131,7 +131,6 @@ export default function Events() {
           <div className="text-center p-6 bg-gray-50 rounded-xl">
             <BookOpen className="h-12 w-12 text-genesis-blue mx-auto mb-4" />
             <h4 className="font-semibold text-genesis-navy mb-2">Educational Resources</h4>
-            <p className="text-gray-600 text-sm">Access to comprehensive learning materials and entrepreneurship guides.</p>
           </div>
           
           <div className="text-center p-6 bg-gray-50 rounded-xl">
