@@ -8,7 +8,6 @@ import AboutPage from "@/pages/about";
 import TeamPage from "@/pages/team";
 import ContactPage from "@/pages/contact";
 import StartupShowdownPage from "@/pages/startup-showdown";
-import StorePage from "@/pages/store";
 import NotFound from "@/pages/not-found";
 
 function Router() {
@@ -18,7 +17,6 @@ function Router() {
       <Route path="/about" component={AboutPage} />
       <Route path="/team" component={TeamPage} />
       <Route path="/startup-showdown" component={StartupShowdownPage} />
-      <Route path="/store" component={StorePage} />
       <Route path="/contact" component={ContactPage} />
       <Route component={NotFound} />
     </Switch>
