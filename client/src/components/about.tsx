@@ -1,4 +1,5 @@
 import { Users, Rocket, Heart, Target, Eye, Lightbulb, DollarSign } from "lucide-react";
+import teamPhoto from "@assets/4_1754154756651.png";
 
 export default function About() {
   return (
@@ -71,7 +72,7 @@ export default function About() {
             </div>
             <div className="relative">
               <img 
-                src="@assets/4_1754154756651.png" 
+                src={teamPhoto} 
                 alt="Genesis Initiative team members" 
                 className="rounded-2xl shadow-xl"
               />
