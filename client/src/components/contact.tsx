@@ -163,7 +163,7 @@ ${formData.firstName} ${formData.lastName}
             <div>
               <h4 className="text-xl font-bold text-genesis-navy mb-4">Follow Us</h4>
               <div className="flex space-x-4">
-                <a href="#" className="w-12 h-12 bg-pink-500 rounded-lg flex items-center justify-center text-white hover:bg-pink-600 transition-colors">
+                <a href="https://www.instagram.com/thegenesisinitiative_austin/" target="_blank" rel="noopener noreferrer" className="w-12 h-12 bg-pink-500 rounded-lg flex items-center justify-center text-white hover:bg-pink-600 transition-colors">
                   <FaInstagram className="text-xl" />
                 </a>
                 <a href="#" className="w-12 h-12 bg-blue-600 rounded-lg flex items-center justify-center text-white hover:bg-blue-700 transition-colors">

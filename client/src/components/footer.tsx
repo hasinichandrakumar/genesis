@@ -29,7 +29,7 @@ export default function Footer() {
               and inclusive community programs designed by youth, for youth.
             </p>
             <div className="flex space-x-4 mt-6">
-              <a href="#" className="w-10 h-10 bg-pink-500 rounded-full flex items-center justify-center hover:bg-pink-600 transition-colors">
+              <a href="https://www.instagram.com/thegenesisinitiative_austin/" target="_blank" rel="noopener noreferrer" className="w-10 h-10 bg-pink-500 rounded-full flex items-center justify-center hover:bg-pink-600 transition-colors">
                 <FaInstagram />
               </a>
               <a href="#" className="w-10 h-10 bg-blue-600 rounded-full flex items-center justify-center hover:bg-blue-700 transition-colors">
