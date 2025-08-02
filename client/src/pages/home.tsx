@@ -5,7 +5,6 @@ import Events from "@/components/events";
 import Impact from "@/components/impact";
 import Team from "@/components/team";
 import Contact from "@/components/contact";
-import Donate from "@/components/donate";
 import Footer from "@/components/footer";
 
 export default function Home() {
@@ -18,7 +17,6 @@ export default function Home() {
       <Impact />
       <Team />
       <Contact />
-      <Donate />
       <Footer />
     </div>
   );
