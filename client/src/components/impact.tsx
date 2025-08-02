@@ -22,7 +22,7 @@ export default function Impact() {
             <div className="text-gray-600">Programs Conducted</div>
           </div>
           <div className="text-center">
-            <div className="text-4xl font-bold text-green-600 mb-2">100+</div>
+            <div className="text-4xl font-bold text-genesis-yellow mb-2">100+</div>
             <div className="text-gray-600">Startup Ideas Pitched</div>
           </div>
           <div className="text-center">
