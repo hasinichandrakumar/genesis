@@ -185,12 +185,7 @@ ${formData.firstName} ${formData.lastName}
                 >
                   <Heart className="inline mr-2 h-5 w-5" /> Support Our Mission
                 </button>
-                <button 
-                  onClick={() => scrollToSection("about")}
-                  className="block w-full border-2 border-genesis-blue text-genesis-blue px-6 py-3 rounded-lg font-semibold hover:bg-genesis-blue hover:text-white transition-colors text-center"
-                >
-                  <CircleOff className="inline mr-2 h-5 w-5" /> Learn More About Us
-                </button>
+
               </div>
             </div>
           </div>
