@@ -176,9 +176,11 @@ export default function StartupShowdownPage() {
           <div className="grid md:grid-cols-2 gap-12 max-w-5xl mx-auto">
             <div className="text-center">
               <div className="bg-gradient-to-br from-genesis-navy/5 to-blue-100/30 rounded-2xl p-8 mb-6">
-                <div className="w-48 h-48 mx-auto bg-gray-200 rounded-lg mb-4 flex items-center justify-center">
-                  <span className="text-gray-500">Division 1 Winner Photo</span>
-                </div>
+                <img 
+                  src="/attached_assets/7_1754162715001.png" 
+                  alt="Division 1 Winners - Start-Up Showdown Competition"
+                  className="w-48 h-48 mx-auto rounded-lg mb-4 object-cover shadow-lg"
+                />
               </div>
               <h3 className="text-2xl font-bold text-genesis-navy mb-2">Division 1 Winner</h3>
               <p className="text-genesis-blue font-semibold mb-2">Grades 8-9</p>
@@ -189,9 +191,11 @@ export default function StartupShowdownPage() {
             
             <div className="text-center">
               <div className="bg-gradient-to-br from-genesis-navy/5 to-blue-100/30 rounded-2xl p-8 mb-6">
-                <div className="w-48 h-48 mx-auto bg-gray-200 rounded-lg mb-4 flex items-center justify-center">
-                  <span className="text-gray-500">Division 2 Winner Photo</span>
-                </div>
+                <img 
+                  src="/attached_assets/8_1754162715001.png" 
+                  alt="Division 2 Winners - Start-Up Showdown Competition"
+                  className="w-48 h-48 mx-auto rounded-lg mb-4 object-cover shadow-lg"
+                />
               </div>
               <h3 className="text-2xl font-bold text-genesis-navy mb-2">Division 2 Winner</h3>
               <p className="text-genesis-blue font-semibold mb-2">Grades 6-7</p>
