@@ -180,7 +180,7 @@ ${formData.firstName} ${formData.lastName}
               <h4 className="text-xl font-bold text-genesis-navy mb-4">Quick Actions</h4>
               <div className="space-y-4">
                 <button 
-                  onClick={() => scrollToSection("donate")}
+                  onClick={() => window.open('https://linktr.ee/thegenesisinitiative.austin', '_blank')}
                   className="block w-full bg-genesis-yellow text-genesis-black px-6 py-3 rounded-lg font-semibold hover:bg-yellow-500 transition-colors text-center"
                 >
                   <Heart className="inline mr-2 h-5 w-5" /> Support Our Mission

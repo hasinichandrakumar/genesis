@@ -88,12 +88,12 @@ export default function Navigation() {
             >
               Contact
             </Link>
-            <Link 
-              href="/#donate"
+            <button 
+              onClick={() => window.open('https://linktr.ee/thegenesisinitiative.austin', '_blank')}
               className="bg-genesis-yellow text-genesis-black px-6 py-2 rounded-full hover:bg-yellow-500 transition-colors font-medium"
             >
               Donate
-            </Link>
+            </button>
           </div>
           
           <div className="md:hidden">
@@ -155,13 +155,15 @@ export default function Navigation() {
               >
                 Contact
               </Link>
-              <Link 
-                href="/#donate"
-                onClick={() => setIsMenuOpen(false)}
+              <button 
+                onClick={() => {
+                  setIsMenuOpen(false);
+                  window.open('https://linktr.ee/thegenesisinitiative.austin', '_blank');
+                }}
                 className="block mx-3 mt-4 w-auto bg-genesis-yellow text-genesis-black px-6 py-2 rounded-full hover:bg-yellow-500 transition-colors font-medium text-center"
               >
                 Donate
-              </Link>
+              </button>
             </div>
           </div>
         )}
