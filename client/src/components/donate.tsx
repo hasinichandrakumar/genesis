@@ -41,7 +41,7 @@ export default function Donate() {
                     onClick={() => handleAmountSelect(amount)}
                     className={`rounded-lg px-4 py-3 font-semibold transition-colors ${
                       selectedAmount === amount
-                        ? "bg-genesis-orange border-genesis-orange"
+                        ? "bg-genesis-yellow text-genesis-black border-genesis-yellow"
                         : "bg-white/10 border border-white/20 hover:bg-white/20"
                     }`}
                   >
@@ -69,7 +69,7 @@ export default function Donate() {
                     value="one-time"
                     checked={donationType === "one-time"}
                     onChange={(e) => setDonationType(e.target.value)}
-                    className="mr-2 text-genesis-orange"
+                    className="mr-2 text-genesis-yellow"
                   />
                   <span>One-time</span>
                 </label>
@@ -80,7 +80,7 @@ export default function Donate() {
                     value="monthly"
                     checked={donationType === "monthly"}
                     onChange={(e) => setDonationType(e.target.value)}
-                    className="mr-2 text-genesis-orange"
+                    className="mr-2 text-genesis-yellow"
                   />
                   <span>Monthly</span>
                 </label>
@@ -92,21 +92,21 @@ export default function Donate() {
               <div className="grid md:grid-cols-2 gap-4">
                 <Input
                   placeholder="First Name"
-                  className="bg-white/10 border-white/20 text-white placeholder-blue-200 focus:ring-2 focus:ring-genesis-orange focus:border-transparent"
+                  className="bg-white/10 border-white/20 text-white placeholder-blue-200 focus:ring-2 focus:ring-genesis-yellow focus:border-transparent"
                 />
                 <Input
                   placeholder="Last Name"
-                  className="bg-white/10 border-white/20 text-white placeholder-blue-200 focus:ring-2 focus:ring-genesis-orange focus:border-transparent"
+                  className="bg-white/10 border-white/20 text-white placeholder-blue-200 focus:ring-2 focus:ring-genesis-yellow focus:border-transparent"
                 />
               </div>
               <Input
                 type="email"
                 placeholder="Email Address"
-                className="bg-white/10 border-white/20 text-white placeholder-blue-200 focus:ring-2 focus:ring-genesis-orange focus:border-transparent"
+                className="bg-white/10 border-white/20 text-white placeholder-blue-200 focus:ring-2 focus:ring-genesis-yellow focus:border-transparent"
               />
             </div>
             
-            <Button className="w-full bg-genesis-orange text-white hover:bg-orange-600 text-lg py-4">
+            <Button className="w-full bg-genesis-yellow text-genesis-black hover:bg-yellow-500 text-lg py-4">
               <Heart className="mr-2 h-5 w-5" />
               Donate Now
             </Button>
@@ -124,8 +124,8 @@ export default function Donate() {
               <h3 className="text-2xl font-bold mb-6">Your Impact</h3>
               <div className="space-y-4">
                 <div className="flex items-start">
-                  <div className="w-12 h-12 bg-genesis-orange/20 rounded-lg flex items-center justify-center mr-4 flex-shrink-0">
-                    <span className="text-genesis-orange font-bold">$25</span>
+                  <div className="w-12 h-12 bg-genesis-yellow/20 rounded-lg flex items-center justify-center mr-4 flex-shrink-0">
+                    <span className="text-genesis-yellow font-bold">$25</span>
                   </div>
                   <div>
                     <h4 className="font-semibold text-blue-100">Supplies Workshop Materials</h4>
@@ -134,8 +134,8 @@ export default function Donate() {
                 </div>
                 
                 <div className="flex items-start">
-                  <div className="w-12 h-12 bg-genesis-orange/20 rounded-lg flex items-center justify-center mr-4 flex-shrink-0">
-                    <span className="text-genesis-orange font-bold">$50</span>
+                  <div className="w-12 h-12 bg-genesis-yellow/20 rounded-lg flex items-center justify-center mr-4 flex-shrink-0">
+                    <span className="text-genesis-yellow font-bold">$50</span>
                   </div>
                   <div>
                     <h4 className="font-semibold text-blue-100">Sponsors a Student</h4>
@@ -144,8 +144,8 @@ export default function Donate() {
                 </div>
                 
                 <div className="flex items-start">
-                  <div className="w-12 h-12 bg-genesis-orange/20 rounded-lg flex items-center justify-center mr-4 flex-shrink-0">
-                    <span className="text-genesis-orange font-bold">$100</span>
+                  <div className="w-12 h-12 bg-genesis-yellow/20 rounded-lg flex items-center justify-center mr-4 flex-shrink-0">
+                    <span className="text-genesis-yellow font-bold">$100</span>
                   </div>
                   <div>
                     <h4 className="font-semibold text-blue-100">Funds Mentor Training</h4>
@@ -154,8 +154,8 @@ export default function Donate() {
                 </div>
                 
                 <div className="flex items-start">
-                  <div className="w-12 h-12 bg-genesis-orange/20 rounded-lg flex items-center justify-center mr-4 flex-shrink-0">
-                    <span className="text-genesis-orange font-bold">$250</span>
+                  <div className="w-12 h-12 bg-genesis-yellow/20 rounded-lg flex items-center justify-center mr-4 flex-shrink-0">
+                    <span className="text-genesis-yellow font-bold">$250</span>
                   </div>
                   <div>
                     <h4 className="font-semibold text-blue-100">Supports New Program</h4>
@@ -189,9 +189,9 @@ export default function Donate() {
             </div>
             
             {/* Thank You */}
-            <div className="text-center p-6 bg-gradient-to-br from-genesis-orange/10 to-orange-500/10 rounded-2xl border border-genesis-orange/20">
-              <Heart className="h-12 w-12 text-genesis-orange mx-auto mb-4" />
-              <h4 className="text-xl font-bold text-genesis-orange mb-2">Thank You!</h4>
+            <div className="text-center p-6 bg-gradient-to-br from-genesis-yellow/10 to-yellow-500/10 rounded-2xl border border-genesis-yellow/20">
+              <Heart className="h-12 w-12 text-genesis-yellow mx-auto mb-4" />
+              <h4 className="text-xl font-bold text-genesis-yellow mb-2">Thank You!</h4>
               <p className="text-blue-100 text-sm">
                 Your support makes it possible for us to empower the next generation of entrepreneurs. 
                 Together, we're building a community where every young person can thrive.

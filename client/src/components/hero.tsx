@@ -37,7 +37,7 @@ export default function Hero() {
         </div>
         
         <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold mb-6 leading-tight">
-          Guiding Emerging <span className="text-genesis-orange">Next-Gen</span><br />
+          Guiding Emerging <span className="text-genesis-yellow">Next-Gen</span><br />
           Entrepreneurial Success
         </h1>
         <p className="text-xl sm:text-2xl mb-8 text-blue-100 max-w-3xl mx-auto leading-relaxed">
@@ -46,7 +46,7 @@ export default function Hero() {
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
           <button 
             onClick={() => scrollToSection("about")}
-            className="bg-genesis-orange text-white px-8 py-4 rounded-full text-lg font-semibold hover:bg-orange-600 transition-colors inline-flex items-center"
+            className="bg-genesis-yellow text-genesis-black px-8 py-4 rounded-full text-lg font-semibold hover:bg-yellow-500 transition-colors inline-flex items-center"
           >
             Learn More <ArrowRight className="ml-2 h-5 w-5" />
           </button>

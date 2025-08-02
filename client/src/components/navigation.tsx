@@ -63,7 +63,7 @@ export default function Navigation() {
             </button>
             <button 
               onClick={() => scrollToSection("donate")}
-              className="bg-genesis-orange text-white px-6 py-2 rounded-full hover:bg-orange-600 transition-colors font-medium"
+              className="bg-genesis-yellow text-genesis-black px-6 py-2 rounded-full hover:bg-yellow-500 transition-colors font-medium"
             >
               Donate
             </button>
@@ -109,7 +109,7 @@ export default function Navigation() {
               </button>
               <button 
                 onClick={() => scrollToSection("donate")}
-                className="block mx-3 mt-4 w-auto bg-genesis-orange text-white px-6 py-2 rounded-full hover:bg-orange-600 transition-colors font-medium text-center"
+                className="block mx-3 mt-4 w-auto bg-genesis-yellow text-genesis-black px-6 py-2 rounded-full hover:bg-yellow-500 transition-colors font-medium text-center"
               >
                 Donate
               </button>

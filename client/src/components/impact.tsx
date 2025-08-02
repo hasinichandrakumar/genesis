@@ -14,7 +14,7 @@ export default function Impact() {
         {/* Impact Stats */}
         <div className="grid md:grid-cols-4 gap-8 mb-16">
           <div className="text-center">
-            <div className="text-4xl font-bold text-genesis-orange mb-2">500+</div>
+            <div className="text-4xl font-bold text-genesis-yellow mb-2">500+</div>
             <div className="text-gray-600">Students Reached</div>
           </div>
           <div className="text-center">
@@ -45,7 +45,7 @@ export default function Impact() {
                 <div className="text-gray-600 text-sm">High School Senior</div>
               </div>
             </div>
-            <div className="flex text-genesis-orange mb-4">
+            <div className="flex text-genesis-yellow mb-4">
               {[...Array(5)].map((_, i) => (
                 <Star key={i} className="h-5 w-5 fill-current" />
               ))}
@@ -68,7 +68,7 @@ export default function Impact() {
                 <div className="text-gray-600 text-sm">Program Alumnus</div>
               </div>
             </div>
-            <div className="flex text-genesis-orange mb-4">
+            <div className="flex text-genesis-yellow mb-4">
               {[...Array(5)].map((_, i) => (
                 <Star key={i} className="h-5 w-5 fill-current" />
               ))}

@@ -50,7 +50,7 @@ export default function Team() {
               </p>
               <div className="mt-4 flex flex-wrap gap-2">
                 <span className="px-3 py-1 bg-genesis-blue/10 text-genesis-blue rounded-full text-sm font-medium">Leadership</span>
-                <span className="px-3 py-1 bg-genesis-orange/10 text-genesis-orange rounded-full text-sm font-medium">Program Development</span>
+                <span className="px-3 py-1 bg-genesis-yellow/10 text-genesis-yellow rounded-full text-sm font-medium">Program Development</span>
                 <span className="px-3 py-1 bg-green-100 text-green-700 rounded-full text-sm font-medium">Community Outreach</span>
               </div>
             </div>
@@ -85,7 +85,7 @@ export default function Team() {
               </p>
               <div className="mt-4 flex flex-wrap gap-2">
                 <span className="px-3 py-1 bg-genesis-blue/10 text-genesis-blue rounded-full text-sm font-medium">Operations</span>
-                <span className="px-3 py-1 bg-genesis-orange/10 text-genesis-orange rounded-full text-sm font-medium">Strategic Planning</span>
+                <span className="px-3 py-1 bg-genesis-yellow/10 text-genesis-yellow rounded-full text-sm font-medium">Strategic Planning</span>
                 <span className="px-3 py-1 bg-green-100 text-green-700 rounded-full text-sm font-medium">Mentorship</span>
               </div>
             </div>
@@ -102,15 +102,15 @@ export default function Team() {
           
           <div className="grid md:grid-cols-3 gap-6 mb-8">
             <div>
-              <div className="text-2xl font-bold text-genesis-orange mb-2">15+</div>
+              <div className="text-2xl font-bold text-genesis-yellow mb-2">15+</div>
               <div className="text-blue-200">Active Youth Leaders</div>
             </div>
             <div>
-              <div className="text-2xl font-bold text-genesis-orange mb-2">25+</div>
+              <div className="text-2xl font-bold text-genesis-yellow mb-2">25+</div>
               <div className="text-blue-200">Volunteer Mentors</div>
             </div>
             <div>
-              <div className="text-2xl font-bold text-genesis-orange mb-2">8+</div>
+              <div className="text-2xl font-bold text-genesis-yellow mb-2">8+</div>
               <div className="text-blue-200">Partner Organizations</div>
             </div>
           </div>
@@ -118,7 +118,7 @@ export default function Team() {
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <button 
               onClick={scrollToContact}
-              className="bg-genesis-orange text-white px-8 py-4 rounded-full font-semibold hover:bg-orange-600 transition-colors inline-flex items-center justify-center"
+              className="bg-genesis-yellow text-genesis-black px-8 py-4 rounded-full font-semibold hover:bg-yellow-500 transition-colors inline-flex items-center justify-center"
             >
               <UserPlus className="mr-2 h-5 w-5" /> Volunteer With Us
             </button>

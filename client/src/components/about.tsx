@@ -24,8 +24,8 @@ export default function About() {
             </div>
             
             <div className="text-center p-8 bg-white rounded-xl shadow-lg hover:shadow-xl transition-shadow">
-              <div className="w-16 h-16 bg-genesis-orange/10 rounded-full flex items-center justify-center mx-auto mb-6">
-                <Rocket className="h-8 w-8 text-genesis-orange" />
+              <div className="w-16 h-16 bg-genesis-yellow/10 rounded-full flex items-center justify-center mx-auto mb-6">
+                <Rocket className="h-8 w-8 text-genesis-yellow" />
               </div>
               <h3 className="text-xl font-semibold text-genesis-navy mb-4">Entrepreneurship Focus</h3>
               <p className="text-gray-600">Teaching business skills, creativity, and innovation through hands-on workshops and competitions.</p>
@@ -67,8 +67,8 @@ export default function About() {
                 alt="Youth collaboration and teamwork" 
                 className="rounded-2xl shadow-xl"
               />
-              <div className="absolute -bottom-6 -right-6 w-24 h-24 bg-genesis-orange rounded-full flex items-center justify-center">
-                <Lightbulb className="h-12 w-12 text-white" />
+              <div className="absolute -bottom-6 -right-6 w-24 h-24 bg-genesis-yellow rounded-full flex items-center justify-center">
+                <Lightbulb className="h-12 w-12 text-genesis-black" />
               </div>
             </div>
           </div>
@@ -86,9 +86,9 @@ export default function About() {
               </p>
             </div>
             
-            <div className="text-center p-8 bg-gradient-to-br from-genesis-orange/5 to-orange-100/30 rounded-2xl">
-              <div className="w-16 h-16 bg-genesis-orange rounded-full flex items-center justify-center mx-auto mb-6">
-                <Rocket className="h-8 w-8 text-white" />
+            <div className="text-center p-8 bg-gradient-to-br from-genesis-yellow/5 to-yellow-100/30 rounded-2xl">
+              <div className="w-16 h-16 bg-genesis-yellow rounded-full flex items-center justify-center mx-auto mb-6">
+                <Rocket className="h-8 w-8 text-genesis-black" />
               </div>
               <h3 className="text-2xl font-bold text-genesis-navy mb-4">What We Do</h3>
               <p className="text-gray-700 leading-relaxed">

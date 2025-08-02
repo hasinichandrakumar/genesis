@@ -124,7 +124,7 @@ ${formData.firstName} ${formData.lastName}
               
               <Button 
                 type="submit" 
-                className="w-full bg-genesis-orange text-white hover:bg-orange-600 text-lg py-4"
+                className="w-full bg-genesis-yellow text-genesis-black hover:bg-yellow-500 text-lg py-4"
               >
                 <Send className="mr-2 h-5 w-5" />
                 Send Message
@@ -178,7 +178,7 @@ ${formData.firstName} ${formData.lastName}
               <div className="space-y-3">
                 <button 
                   onClick={() => scrollToSection("donate")}
-                  className="block w-full bg-genesis-orange text-white px-6 py-3 rounded-lg font-semibold hover:bg-orange-600 transition-colors text-center"
+                  className="block w-full bg-genesis-yellow text-genesis-black px-6 py-3 rounded-lg font-semibold hover:bg-yellow-500 transition-colors text-center"
                 >
                   <Heart className="inline mr-2 h-5 w-5" /> Support Our Mission
                 </button>

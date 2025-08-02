@@ -25,9 +25,12 @@
   --radius: 0.5rem;
   
   /* Genesis Initiative Brand Colors */
-  --genesis-navy: hsl(222, 84%, 30%);
-  --genesis-blue: hsl(213, 90%, 54%);
-  --genesis-orange: hsl(20, 91%, 51%);
+  --genesis-navy: hsl(225, 60%, 25%);
+  --genesis-black: hsl(0, 0%, 8%);
+  --genesis-white: hsl(0, 0%, 100%);
+  --genesis-gray: hsl(0, 0%, 75%);
+  --genesis-blue: hsl(195, 100%, 60%);
+  --genesis-yellow: hsl(45, 100%, 60%);
 }
 
 .dark {
@@ -77,8 +80,16 @@
     color: var(--genesis-blue);
   }
   
-  .genesis-orange {
-    color: var(--genesis-orange);
+  .genesis-yellow {
+    color: var(--genesis-yellow);
+  }
+  
+  .genesis-black {
+    color: var(--genesis-black);
+  }
+  
+  .genesis-gray {
+    color: var(--genesis-gray);
   }
   
   .bg-genesis-navy {
@@ -89,8 +100,16 @@
     background-color: var(--genesis-blue);
   }
   
-  .bg-genesis-orange {
-    background-color: var(--genesis-orange);
+  .bg-genesis-yellow {
+    background-color: var(--genesis-yellow);
+  }
+  
+  .bg-genesis-black {
+    background-color: var(--genesis-black);
+  }
+  
+  .bg-genesis-gray {
+    background-color: var(--genesis-gray);
   }
   
   .border-genesis-navy {
@@ -101,8 +120,8 @@
     border-color: var(--genesis-blue);
   }
   
-  .border-genesis-orange {
-    border-color: var(--genesis-orange);
+  .border-genesis-yellow {
+    border-color: var(--genesis-yellow);
   }
   
   .text-genesis-navy {
@@ -113,7 +132,15 @@
     color: var(--genesis-blue);
   }
   
-  .text-genesis-orange {
-    color: var(--genesis-orange);
+  .text-genesis-yellow {
+    color: var(--genesis-yellow);
+  }
+  
+  .text-genesis-black {
+    color: var(--genesis-black);
+  }
+  
+  .text-genesis-gray {
+    color: var(--genesis-gray);
   }
 }
