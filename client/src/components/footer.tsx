@@ -1,5 +1,6 @@
 import { GenesisLogoWhite } from "@/lib/logos";
 import { FaInstagram, FaLinkedin, FaEnvelope, FaFacebook } from "react-icons/fa";
+import { Link } from "wouter";
 
 export default function Footer() {
   const scrollToSection = (sectionId: string) => {
@@ -49,36 +50,24 @@ export default function Footer() {
             <h4 className="text-lg font-semibold mb-6">Quick Links</h4>
             <ul className="space-y-3">
               <li>
-                <button 
-                  onClick={() => scrollToSection("about")}
-                  className="text-gray-400 hover:text-white transition-colors"
-                >
+                <Link href="/about" className="text-gray-400 hover:text-white transition-colors">
                   About Us
-                </button>
+                </Link>
               </li>
               <li>
-                <button 
-                  onClick={() => scrollToSection("team")}
-                  className="text-gray-400 hover:text-white transition-colors"
-                >
+                <Link href="/team" className="text-gray-400 hover:text-white transition-colors">
                   Our Team
-                </button>
+                </Link>
               </li>
               <li>
-                <button 
-                  onClick={() => scrollToSection("contact")}
-                  className="text-gray-400 hover:text-white transition-colors"
-                >
+                <Link href="/contact" className="text-gray-400 hover:text-white transition-colors">
                   Contact
-                </button>
+                </Link>
               </li>
               <li>
-                <button 
-                  onClick={() => scrollToSection("donate")}
-                  className="text-gray-400 hover:text-white transition-colors"
-                >
+                <Link href="/#donate" className="text-gray-400 hover:text-white transition-colors">
                   Donate
-                </button>
+                </Link>
               </li>
             </ul>
           </div>
@@ -87,10 +76,10 @@ export default function Footer() {
           <div>
             <h4 className="text-lg font-semibold mb-6">Programs</h4>
             <ul className="space-y-3">
-              <li><a href="#" className="text-gray-400 hover:text-white transition-colors">High School Head Start</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-white transition-colors">Startup Showdown</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-white transition-colors">Financial Literacy</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-white transition-colors">Mentorship</a></li>
+              <li><Link href="/#events" className="text-gray-400 hover:text-white transition-colors">High School Head Start</Link></li>
+              <li><Link href="/startup-showdown" className="text-gray-400 hover:text-white transition-colors">Startup Showdown</Link></li>
+              <li><Link href="/#events" className="text-gray-400 hover:text-white transition-colors">Financial Literacy</Link></li>
+              <li><Link href="/contact" className="text-gray-400 hover:text-white transition-colors">Mentorship</Link></li>
             </ul>
           </div>
         </div>
