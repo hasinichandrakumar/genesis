@@ -71,8 +71,8 @@ export default function About() {
             </div>
             <div className="relative">
               <img 
-                src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600" 
-                alt="Youth collaboration and teamwork" 
+                src="@assets/4_1754154756651.png" 
+                alt="Genesis Initiative team members" 
                 className="rounded-2xl shadow-xl"
               />
               <div className="absolute -bottom-6 -right-6 w-24 h-24 bg-genesis-yellow rounded-full flex items-center justify-center">
