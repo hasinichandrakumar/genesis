@@ -1,4 +1,4 @@
-import { Users, Rocket, Heart, Target, Eye, Lightbulb } from "lucide-react";
+import { Users, Rocket, Heart, Target, Eye, Lightbulb, DollarSign } from "lucide-react";
 
 export default function About() {
   return (
@@ -14,7 +14,7 @@ export default function About() {
             </p>
           </div>
           
-          <div className="grid md:grid-cols-3 gap-8">
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
             <div className="text-center p-8 bg-white rounded-xl shadow-lg hover:shadow-xl transition-shadow">
               <div className="w-16 h-16 bg-genesis-blue/10 rounded-full flex items-center justify-center mx-auto mb-6">
                 <Users className="h-8 w-8 text-genesis-blue" />
@@ -37,6 +37,14 @@ export default function About() {
               </div>
               <h3 className="text-xl font-semibold text-genesis-navy mb-4">Inclusive & Accessible</h3>
               <p className="text-gray-600">Welcoming participants from all backgrounds with free or affordable programs designed for everyone.</p>
+            </div>
+            
+            <div className="text-center p-8 bg-white rounded-xl shadow-lg hover:shadow-xl transition-shadow">
+              <div className="w-16 h-16 bg-genesis-blue/10 rounded-full flex items-center justify-center mx-auto mb-6">
+                <DollarSign className="h-8 w-8 text-genesis-blue" />
+              </div>
+              <h3 className="text-xl font-semibold text-genesis-navy mb-4">Financial Literacy</h3>
+              <p className="text-gray-600">Building essential money management skills, budgeting, and financial planning knowledge for lifelong success.</p>
             </div>
           </div>
         </div>
