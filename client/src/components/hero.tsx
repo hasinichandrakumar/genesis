@@ -1,6 +1,6 @@
 import { ArrowRight, ChevronDown } from "lucide-react";
 import { GenesisLogoWhite } from "@/lib/logos";
-import heroImage from "@assets/Untitled design-14_1754152377710.png";
+import heroImage from "@assets/image_1754152661588.png";
 
 export default function Hero() {
   const scrollToSection = (sectionId: string) => {
@@ -17,14 +17,14 @@ export default function Hero() {
         className="absolute inset-0 bg-cover bg-center"
         style={{ 
           backgroundImage: `url('${heroImage}')`,
-          backgroundPosition: 'center 30%',
+          backgroundPosition: 'center center',
           backgroundSize: 'cover',
-          transform: 'scale(1.05)'
+          transform: 'scale(1.02)'
         }}
       ></div>
       
-      {/* Professional dark blue gradient overlay */}
-      <div className="absolute inset-0 bg-gradient-to-br from-genesis-navy/90 via-genesis-navy/80 to-genesis-blue/85"></div>
+      {/* Enhanced blue tint overlay for professional look */}
+      <div className="absolute inset-0 bg-gradient-to-br from-genesis-navy/75 via-genesis-blue/70 to-genesis-navy/80"></div>
       
       <div className="relative z-10 text-center text-white px-4 sm:px-6 lg:px-8 max-w-5xl mx-auto">
         {/* Genesis Pegasus Logo */}
