@@ -91,7 +91,7 @@ export default function About() {
               backgroundRepeat: 'no-repeat'
             }}
           >
-            <div className="text-center p-8 bg-white/90 backdrop-blur-sm rounded-2xl">
+            <div className="text-center p-8 bg-white/60 backdrop-blur-sm rounded-2xl">
               <div className="w-16 h-16 bg-genesis-blue rounded-full flex items-center justify-center mx-auto mb-6">
                 <Target className="h-8 w-8 text-white" />
               </div>
@@ -102,7 +102,7 @@ export default function About() {
               </p>
             </div>
             
-            <div className="text-center p-8 bg-white/90 backdrop-blur-sm rounded-2xl">
+            <div className="text-center p-8 bg-white/60 backdrop-blur-sm rounded-2xl">
               <div className="w-16 h-16 bg-genesis-yellow rounded-full flex items-center justify-center mx-auto mb-6">
                 <Rocket className="h-8 w-8 text-genesis-black" />
               </div>
@@ -113,7 +113,7 @@ export default function About() {
               </p>
             </div>
             
-            <div className="text-center p-8 bg-white/90 backdrop-blur-sm rounded-2xl">
+            <div className="text-center p-8 bg-white/60 backdrop-blur-sm rounded-2xl">
               <div className="w-16 h-16 bg-genesis-navy rounded-full flex items-center justify-center mx-auto mb-6">
                 <Eye className="h-8 w-8 text-white" />
               </div>
