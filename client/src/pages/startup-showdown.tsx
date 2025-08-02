@@ -214,27 +214,7 @@ export default function StartupShowdownPage() {
 
 
 
-      {/* Call to Action */}
-      <section className="py-16 bg-genesis-yellow">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-4xl font-bold text-genesis-black mb-6">Ready to Compete?</h2>
-          <p className="text-xl text-genesis-black/80 mb-8 leading-relaxed">
-            Join the most exciting entrepreneurial competition for young innovators in Austin. 
-            Show the world your startup idea and compete for substantial prizes.
-          </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button className="bg-genesis-navy text-white hover:bg-blue-800 text-lg px-8 py-3">
-              Register for Start-Up Showdown
-            </Button>
-            <Button variant="outline" className="border-genesis-navy text-genesis-navy hover:bg-genesis-navy hover:text-white text-lg px-8 py-3">
-              Download Information Packet
-            </Button>
-          </div>
-          <p className="text-sm text-genesis-black/60 mt-6">
-            Registration deadline: February 15, 2025 • Questions? Contact us at thegenesisinitiative.austin@gmail.com
-          </p>
-        </div>
-      </section>
+
 
       <Footer />
     </div>
