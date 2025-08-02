@@ -19,10 +19,12 @@ Preferred communication style: Simple, everyday language.
 - **Build Tool**: Vite for fast development and optimized production builds
 
 ### Component Structure
-- **Layout**: Single-page application with smooth scrolling navigation between sections
+- **Layout**: Multi-page application with separate routes for main sections (Home, About, Team, Contact)
+- **Routing**: Wouter-based routing with individual pages for better SEO and navigation
 - **Sections**: Modular components for Hero, About, Events, Impact, Team, Contact, Donate, and Footer
 - **UI Library**: Comprehensive set of reusable UI components including forms, buttons, dialogs, and navigation elements
 - **Responsive Design**: Mobile-first approach with breakpoint-based responsive layouts
+- **Navigation**: Active state indicators and proper routing between pages
 
 ### Backend Architecture
 - **Runtime**: Node.js with Express.js server framework
