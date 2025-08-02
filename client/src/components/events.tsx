@@ -1,4 +1,4 @@
-import { GraduationCap, Trophy, Lightbulb, Handshake, PiggyBank, ArrowRight, Calendar, Users, Award, FileText, Presentation, Network } from "lucide-react";
+import { GraduationCap, Trophy, Lightbulb, Handshake, PiggyBank, ArrowRight, Calendar, Users, Award, FileText, Presentation, Network, BookOpen, TrendingUp, Target, Clock, Brain, Globe } from "lucide-react";
 
 export default function Events() {
   const scrollToContact = () => {
@@ -126,6 +126,30 @@ export default function Events() {
             <Network className="h-12 w-12 text-indigo-600 mx-auto mb-4" />
             <h4 className="font-semibold text-genesis-navy mb-2">Networking Opportunities</h4>
             <p className="text-gray-600 text-sm">Connect with fellow entrepreneurs and industry leaders.</p>
+          </div>
+          
+          <div className="text-center p-6 bg-gray-50 rounded-xl">
+            <BookOpen className="h-12 w-12 text-genesis-blue mx-auto mb-4" />
+            <h4 className="font-semibold text-genesis-navy mb-2">Educational Resources</h4>
+            <p className="text-gray-600 text-sm">Access to comprehensive learning materials and entrepreneurship guides.</p>
+          </div>
+          
+          <div className="text-center p-6 bg-gray-50 rounded-xl">
+            <TrendingUp className="h-12 w-12 text-green-500 mx-auto mb-4" />
+            <h4 className="font-semibold text-genesis-navy mb-2">Market Research Training</h4>
+            <p className="text-gray-600 text-sm">Learn how to analyze markets and validate your business ideas effectively.</p>
+          </div>
+          
+          <div className="text-center p-6 bg-gray-50 rounded-xl">
+            <Target className="h-12 w-12 text-genesis-orange mx-auto mb-4" />
+            <h4 className="font-semibold text-genesis-navy mb-2">Goal Setting Sessions</h4>
+            <p className="text-gray-600 text-sm">Develop strategic planning skills and learn to set achievable business goals.</p>
+          </div>
+          
+          <div className="text-center p-6 bg-gray-50 rounded-xl">
+            <Brain className="h-12 w-12 text-purple-500 mx-auto mb-4" />
+            <h4 className="font-semibold text-genesis-navy mb-2">Critical Thinking Skills</h4>
+            <p className="text-gray-600 text-sm">Enhance problem-solving abilities and analytical thinking for business challenges.</p>
           </div>
         </div>
       </div>
