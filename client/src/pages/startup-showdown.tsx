@@ -184,8 +184,8 @@ export default function StartupShowdownPage() {
                   className="w-80 h-60 mx-auto rounded-lg mb-4 object-contain shadow-lg"
                 />
               </div>
-              <h3 className="text-2xl font-bold text-genesis-navy mb-2">Division 1 Winner</h3>
-              <p className="text-genesis-blue font-semibold mb-2">Grades 8-9</p>
+              <h3 className="text-2xl font-bold text-genesis-navy mb-2">Nishwanth Gopu</h3>
+              <p className="text-genesis-blue font-semibold mb-2">Division 1 Winner (Grades 8-9)</p>
               <p className="text-gray-600">
                 Outstanding innovation and entrepreneurial excellence in the upper division
               </p>
@@ -199,8 +199,8 @@ export default function StartupShowdownPage() {
                   className="w-80 h-60 mx-auto rounded-lg mb-4 object-contain shadow-lg"
                 />
               </div>
-              <h3 className="text-2xl font-bold text-genesis-navy mb-2">Division 2 Winner</h3>
-              <p className="text-genesis-blue font-semibold mb-2">Grades 6-7</p>
+              <h3 className="text-2xl font-bold text-genesis-navy mb-2">Yugan Chandru & Sanjay Gudipati</h3>
+              <p className="text-genesis-blue font-semibold mb-2">Division 2 Winners (Grades 6-7)</p>
               <p className="text-gray-600">
                 Remarkable creativity and business acumen in the younger division
               </p>
