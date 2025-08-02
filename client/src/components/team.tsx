@@ -1,5 +1,6 @@
 import { UserPlus, Handshake } from "lucide-react";
 import { FaLinkedin, FaEnvelope } from "react-icons/fa";
+import hasiniPhoto from "@assets/HasiniChandrakumarHeadshot_1754155576626.jpeg";
 
 export default function Team() {
   const scrollToContact = () => {
@@ -26,7 +27,7 @@ export default function Team() {
             <div className="p-8">
               <div className="flex items-center mb-6">
                 <img 
-                  src="https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-4.0.3&auto=format&fit=crop&w=150&h=150" 
+                  src={hasiniPhoto} 
                   alt="Hasini Chandrakumar" 
                   className="w-20 h-20 rounded-full object-cover mr-6"
                 />
