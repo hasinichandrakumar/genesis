@@ -23,7 +23,7 @@ export default function Impact() {
         {/* Impact Stats */}
         <div className="grid md:grid-cols-4 gap-8 mb-16">
           <div className="text-center">
-            <div className="text-4xl font-bold text-genesis-yellow mb-2">250</div>
+            <div className="text-4xl font-bold text-genesis-yellow mb-2">500</div>
             <div className="text-gray-600">Students Reached</div>
           </div>
           <div className="text-center">
@@ -35,8 +35,8 @@ export default function Impact() {
             <div className="text-gray-600">Startup Ideas Pitched</div>
           </div>
           <div className="text-center">
-            <div className="text-4xl font-bold text-genesis-navy mb-2">10+</div>
-            <div className="text-gray-600">Sponsors</div>
+            <div className="text-4xl font-bold text-genesis-navy mb-2">$9,000</div>
+            <div className="text-gray-600">Worth of Seminars Provided</div>
           </div>
         </div>
         
