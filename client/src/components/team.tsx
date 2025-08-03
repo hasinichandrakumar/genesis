@@ -69,7 +69,7 @@ export default function Team() {
                 />
                 <div>
                   <h3 className="text-2xl font-bold text-genesis-navy">Siddharth Kommuri</h3>
-                  <p className="text-genesis-blue font-medium">Executive Director</p>
+                  <p className="text-genesis-blue font-medium">Co-Founder & Executive Director</p>
                   <div className="flex space-x-3 mt-2">
                     <a href="https://www.linkedin.com/in/siddharth-kommuri-5698a32b7/" target="_blank" rel="noopener noreferrer" className="text-genesis-blue hover:text-genesis-navy transition-colors">
                       <FaLinkedin className="text-lg" />
