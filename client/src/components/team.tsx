@@ -39,7 +39,7 @@ export default function Team() {
                     <a href="https://www.linkedin.com/in/hasini-chandrakumar-33483b308/" target="_blank" rel="noopener noreferrer" className="text-genesis-blue hover:text-genesis-navy transition-colors">
                       <FaLinkedin className="text-lg" />
                     </a>
-                    <a href="mailto:hasinic.222@gmail.com" className="text-genesis-blue hover:text-genesis-navy transition-colors">
+                    <a href="mailto:hasinic.222@gmail.com" className="text-black hover:text-genesis-navy transition-colors">
                       <FaEnvelope className="text-lg" />
                     </a>
                   </div>
@@ -74,7 +74,7 @@ export default function Team() {
                     <a href="https://www.linkedin.com/in/siddharth-kommuri-5698a32b7/" target="_blank" rel="noopener noreferrer" className="text-genesis-blue hover:text-genesis-navy transition-colors">
                       <FaLinkedin className="text-lg" />
                     </a>
-                    <a href="mailto:siddu.kommuri9@gmail.com" className="text-genesis-blue hover:text-genesis-navy transition-colors">
+                    <a href="mailto:siddu.kommuri9@gmail.com" className="text-black hover:text-genesis-navy transition-colors">
                       <FaEnvelope className="text-lg" />
                     </a>
                   </div>
