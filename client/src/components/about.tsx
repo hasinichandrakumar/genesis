@@ -52,14 +52,14 @@ export default function About() {
       </section>
 
       {/* Official Status Section */}
-      <section className="py-12 bg-white border-t border-gray-100">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center p-8 bg-genesis-blue/5 rounded-2xl border border-genesis-blue/20">
-            <div className="w-12 h-12 bg-genesis-blue rounded-full flex items-center justify-center mx-auto mb-4">
-              <Award className="h-6 w-6 text-white" />
+      <section className="py-16 bg-gradient-to-br from-gray-50 to-white">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center p-12 bg-gradient-to-br from-genesis-blue/8 to-genesis-blue/3 rounded-3xl border border-genesis-blue/30 shadow-xl shadow-genesis-blue/10">
+            <div className="w-16 h-16 bg-gradient-to-br from-genesis-blue to-genesis-navy rounded-full flex items-center justify-center mx-auto mb-6 shadow-lg">
+              <Award className="h-8 w-8 text-white" />
             </div>
-            <h3 className="text-lg font-semibold text-genesis-navy mb-2">We're Official</h3>
-            <p className="text-genesis-navy/80 font-medium">
+            <h3 className="text-2xl font-bold text-genesis-navy mb-3">We're Official</h3>
+            <p className="text-xl text-genesis-navy/90 font-semibold max-w-2xl mx-auto leading-relaxed">
               The Genesis Initiative is a state-recognized 501(c)(3) nonprofit organization.
             </p>
           </div>
