@@ -54,6 +54,13 @@ export default {
           "4": "var(--chart-4)",
           "5": "var(--chart-5)",
         },
+        // Genesis Initiative Brand Colors
+        "genesis-navy": "var(--genesis-navy)",
+        "genesis-black": "var(--genesis-black)",
+        "genesis-white": "var(--genesis-white)",
+        "genesis-gray": "var(--genesis-gray)",
+        "genesis-blue": "var(--genesis-blue)",
+        "genesis-yellow": "var(--genesis-yellow)",
         sidebar: {
           DEFAULT: "var(--sidebar-background)",
           foreground: "var(--sidebar-foreground)",
