@@ -1,4 +1,4 @@
-import { Users, Rocket, Heart, Target, Eye, Lightbulb, DollarSign } from "lucide-react";
+import { Users, Rocket, Heart, Target, Eye, Lightbulb, DollarSign, Award } from "lucide-react";
 import workshopCollage from "@assets/Untitled design-12_1754154967868.png";
 
 export default function About() {
@@ -47,6 +47,21 @@ export default function About() {
               <h3 className="text-xl font-semibold text-genesis-navy mb-4">Financial Literacy</h3>
               <p className="text-gray-600">Building essential money management skills, budgeting, and financial planning knowledge for lifelong success.</p>
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Official Status Section */}
+      <section className="py-12 bg-white border-t border-gray-100">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center p-8 bg-genesis-blue/5 rounded-2xl border border-genesis-blue/20">
+            <div className="w-12 h-12 bg-genesis-blue rounded-full flex items-center justify-center mx-auto mb-4">
+              <Award className="h-6 w-6 text-white" />
+            </div>
+            <h3 className="text-lg font-semibold text-genesis-navy mb-2">We're Official</h3>
+            <p className="text-genesis-navy/80 font-medium">
+              The Genesis Initiative is a state-recognized 501(c)(3) nonprofit organization.
+            </p>
           </div>
         </div>
       </section>
