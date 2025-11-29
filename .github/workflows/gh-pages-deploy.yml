@@ -23,6 +23,24 @@ jobs:
       - name: Build
         run: npm run build
 
+      - name: Ensure CNAME in build
+        run: |
+          if [ -f CNAME ]; then
+            cp CNAME dist/public/CNAME
+          fi
+
+      - name: Copy attached_assets into build
+        run: |
+          if [ -d attached_assets ]; then
+            cp -r attached_assets dist/public/attached_assets
+          fi
+
+      - name: Ensure SPA fallback (copy index to 404)
+        run: |
+          if [ -f dist/public/index.html ]; then
+            cp dist/public/index.html dist/public/404.html
+          fi
+
       - name: Deploy to gh-pages
         uses: peaceiris/actions-gh-pages@v3
         with:
